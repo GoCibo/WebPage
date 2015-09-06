@@ -743,10 +743,8 @@ h2 {
 	
 	#testimonials .carousel {
 		top:-70px;
-		margin-bottom:-100px;
+		margin-bottom:-130px;
 	}
-	
-	
 }
 
 @media screen and (min-width:480px) and (max-width:767px) {
