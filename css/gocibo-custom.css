@@ -286,6 +286,15 @@ h1.banner2Title {
 		float:left;
 		width:50%;
 	}
+	
+	h1.banner1Title {
+		font:300 5vw/5vw "Roboto",Arial,Helvetica,sans-serif;
+	}
+	
+	.bannerContent1 .row {
+		margin-left:0;
+		margin-right:0;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
