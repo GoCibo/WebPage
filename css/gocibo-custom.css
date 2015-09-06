@@ -732,6 +732,12 @@ h2 {
 	text-align:center;
 }
 
+@media screen and (min-width:300px) and (max-width:399px) {
+	#testimonials {
+		margin:-20px 0;
+	}
+}
+
 @media screen and (min-width:400px) and (max-width:767px) {
 	#testimonials .bannerTitle {
 	font-size:25px;
