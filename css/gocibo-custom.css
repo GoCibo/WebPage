@@ -109,6 +109,10 @@ a.snIcon:hover {
 }
 
 @media screen and (min-width:301px) and (max-width:767px) {
+	.navbar-default .navbar-nav > li > a {
+		display:inline;
+	}
+	
 	.topNav .navbar-nav {
 		background-color:#303030;
 		margin-top:0px;
@@ -743,7 +747,7 @@ h2 {
 	
 	#testimonials .carousel {
 		top:-70px;
-		margin-bottom:-130px;
+		margin-bottom:-140px;
 	}
 }
 
@@ -823,6 +827,23 @@ footer .row p {
 }
 
 @media screen and (min-width:301px) and (max-width:479px) {
+	.socialIcons {
+		float:left;
+	}
+	
+	.snIcon, a.snIcon {
+		margin-left:0;
+		margin-right:15px;
+	}
+	
+	.footNavContainer .navbar-nav > li {
+		padding:17px 15px 13px;
+	}
+	
+	.footNavContainer .navbar-nav > li > a {
+		display:inline;
+	}
+	
 	footer .collapse {
 		display:block;
 	}
