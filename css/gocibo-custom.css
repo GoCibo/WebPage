@@ -229,7 +229,7 @@ h1.banner1Title {
 
 h1.banner2Title {
 	text-align:left;
-	font:300 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
+	font:100 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
 }
@@ -292,7 +292,7 @@ h1.banner2Title {
 	}
 	
 	h1.banner1Title {
-		font:300 130% "Roboto",Arial,Helvetica,sans-serif;
+		font:100 130% "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	.bannerContent1 .row {
