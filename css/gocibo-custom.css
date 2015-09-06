@@ -54,7 +54,7 @@ a.snIcon:hover {
 
 /* nav bar */
 .navbar-brand {
-  background:url(../images/logo-gocibo-transparent.png) no-repeat 20px 20px;
+  background:url(../images/logo-gocibo.png) no-repeat 20px 20px;
   width:220px !important;
   height:100px !important;
   padding-bottom:0px !important;
@@ -120,7 +120,7 @@ a.snIcon:hover {
 	}
 	
 	.navbar-brand {
-		background:transparent url(../images/logo-gocibo-transparent.png) no-repeat 15px 10px !important;
+		background:transparent url(../images/logo-gocibo.png) no-repeat 15px 10px !important;
 		height:90px !important;
 	}
 	
@@ -281,6 +281,12 @@ h1.banner2Title {
   height: 100%;
 }
 
+@media screen and (min-width:301px) and (max-width:399px) {
+	.bannerContent1 {
+		margin-top:-50%;
+	}
+}
+
 @media screen and (min-width:400px) and (max-width:767px) {
 	.bannerContent1 .col-lg-6 {
 		float:left;
@@ -418,6 +424,16 @@ h2 {
 #howItWorks .col-lg-4 p.txt {
 	text-align:left;
 	margin:0 40px;
+}
+
+@media screen and (min-width:301px) and (max-width:600px) {
+	#howItWorks .row {
+		margin-top:0px;
+	}
+	
+	#howItWorks .col-lg-4 {
+		padding-top:30px;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -561,6 +577,10 @@ h2 {
 		margin-left:-25%;
 		margin-top:-25%;
 	}
+	
+	#deliverySlots .deliverLunchDinner {
+		padding-bottom:50px;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -664,6 +684,12 @@ h2 {
 @media screen and (min-width:301px) and (max-width:600px) {
 	.dropMail {
 		margin-top:30px;
+	}
+	
+	#contactUs img {
+		width:70%;
+		max-width:394px;
+		margin-left:15%;
 	}
 }
 
