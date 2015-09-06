@@ -54,7 +54,7 @@ a.snIcon:hover {
 
 /* nav bar */
 .navbar-brand {
-  background:url(../images/logo-gocibo-transparent.png) no-repeat 20px 20px;
+  background:url(../images/logo-gocibo.png) no-repeat 20px 20px;
   width:220px !important;
   height:100px !important;
   padding-bottom:0px !important;
@@ -108,7 +108,11 @@ a.snIcon:hover {
 	background-color:#303030 !important;
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:301px) and (max-width:767px) {
+	.navbar-default .navbar-nav > li > a {
+		display:inline;
+	}
+	
 	.topNav .navbar-nav {
 		background-color:#303030;
 		margin-top:0px;
@@ -120,7 +124,7 @@ a.snIcon:hover {
 	}
 	
 	.navbar-brand {
-		background:transparent url(../images/logo-gocibo-transparent.png) no-repeat 15px 10px !important;
+		background:transparent url(../images/logo-gocibo.png) no-repeat 15px 10px !important;
 		height:90px !important;
 	}
 	
@@ -185,7 +189,7 @@ a.snIcon:hover {
 
 h1.banner1Title {
 	text-align:left;
-	font:300 5vw/5vw 'Roboto', Arial, Helvetica, sans-serif;
+	font:100 5vw/5vw 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:0px;
 }
@@ -225,7 +229,7 @@ h1.banner1Title {
 
 h1.banner2Title {
 	text-align:left;
-	font:300 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
+	font:100 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
 }
@@ -279,6 +283,65 @@ h1.banner2Title {
   display: block;
   max-width: 100%;
   height: 100%;
+}
+
+@media screen and (min-width:301px) and (max-width:399px) {
+	.bannerContent1 .col-lg-6 {
+		float:left;
+		width:50%;
+	}
+	
+	h1.banner1Title {
+		font:100 130% "Roboto",Arial,Helvetica,sans-serif;
+	}
+	
+	.bannerContent1 .row {
+		margin-left:0;
+		margin-right:0;
+	}
+	
+	.bannerContent2 {
+		top:25%;
+	}
+	
+	.bannerContent2 img {
+		width:100%;
+		margin-right:0;
+		margin-top:50%;
+	}
+	
+	.bannerContent2 .rowPadding {
+		padding:0;
+	}
+	
+	.bannerContent2 .row {
+		margin:0;
+	}
+	
+	.bannerContent2 p {
+		font-size:5vw;
+	}
+	
+	h1.banner2Title {
+		font-size:5vw;
+		line-height:6vw;
+	}
+	
+	.haath {
+		padding:0 15px 0 15px !important;
+	}
+	
+	.bannerContent2 .col-lg-3 {
+		width:30%;
+		float:left;
+		margin:0;
+	}
+	
+	.bannerContent2 .col-lg-9 {
+		width:70%;
+		float:left;
+		margin:0;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -420,6 +483,21 @@ h2 {
 	margin:0 40px;
 }
 
+@media screen and (min-width:301px) and (max-width:600px) {
+	#howItWorks .row {
+		margin-top:0px;
+	}
+	
+	#howItWorks .col-lg-4 {
+		padding-top:30px;
+	}
+	
+	#howItWorks img{
+		width:100%;
+		max-width:100px;
+	}
+}
+
 @media screen and (min-width:400px) and (max-width:767px) {
 	#howItWorks {
 		
@@ -476,6 +554,11 @@ h2 {
 	padding:50px 0;
 }
 
+.deliverLove img {
+	width:100%;
+	max-width:340px;
+}
+
 .deliverLove .col-lg-8 p {
 	color:#ffffff;
 	margin-top:30px;
@@ -508,6 +591,8 @@ h2 {
 	left:0;
 	margin-left:-107px;
 	margin-top:-93px;
+	width:100%;
+	max-width:215px;
 }
 
 .dinner .boxStyle1 {
@@ -519,6 +604,45 @@ h2 {
 	left:0;
 	margin-left:-107px;
 	margin-top:-93px;
+}
+
+@media screen and (min-width:301px) and (max-width:479px) {
+	.lunch .boxStyle1 img {
+		top:50%;
+		left:0;
+		margin-left:-35%;
+		margin-top:-25%;
+		width:50%;
+		max-width:215px;
+	}
+	
+	#deliverySlots .lunch {
+		padding:0 0 0 85px;
+	}
+	
+	#deliverySlots .dinner {
+		padding:0 0 0 85px;
+	}
+	
+	.lunch .boxStyle1 {
+		padding:25px 25px 25px 50px;
+	}
+	
+	.boxStyle1 {
+		float:none;
+	}
+	
+	.dinner .boxStyle1 img {
+		width:50%;
+		top:50%;
+		left:0;
+		margin-left:-25%;
+		margin-top:-25%;
+	}
+	
+	#deliverySlots .deliverLunchDinner {
+		padding-bottom:50px;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -560,6 +684,27 @@ h2 {
 	width:125px;
 }
 
+@media screen and (min-width:301px) and (max-width:600px) {
+	.homeChefIcon {
+		float:left;
+		width:30%;
+	}
+	
+	.homeChefIcon img {
+		width:100%;
+		max-width:135px;
+	}
+	
+	.homeChefContent {
+		float:left;
+		width:70%;
+	}
+	
+	.homeChefContent .btnResize {
+		font-size:90%;
+	}
+}
+
 /* contact us */
 #contactUs {
 	background-color:#f7f6f5;
@@ -586,11 +731,28 @@ h2 {
 	padding:10px;
 }
 
+#contactUs img {
+	width:100%;
+	max-width:394px;
+}
+
 .dropMail {
 	color:#303030 !important;
 	font-size:14px;
 	text-align:center;
 	margin-top:80px;
+}
+
+@media screen and (min-width:301px) and (max-width:600px) {
+	.dropMail {
+		margin-top:30px;
+	}
+	
+	#contactUs img {
+		width:70%;
+		max-width:394px;
+		margin-left:15%;
+	}
 }
 
 /* testimonials */
@@ -622,7 +784,21 @@ h2 {
 	text-align:center;
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:300px) and (max-width:497px) {
+	#testimonials .bannerTitle {
+	font-size:25px;
+	}
+
+	#testimonials p {
+		font-size:14px;
+	}
+	
+	#testimonials .carousel {
+		
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
 	#testimonials .bannerTitle {
 	font-size:25px;
 	}
@@ -697,7 +873,42 @@ footer .row p {
 	float:right;
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:301px) and (max-width:479px) {
+	.socialIcons {
+		float:left;
+	}
+	
+	.snIcon, a.snIcon {
+		margin-left:0;
+		margin-right:15px;
+	}
+	
+	.footNavContainer .navbar-nav > li {
+		padding:17px 15px 13px;
+	}
+	
+	.footNavContainer .navbar-nav > li > a {
+		display:inline;
+	}
+	
+	footer .collapse {
+		display:block;
+	}
+	
+	footer.navbar-nav {
+		background-color:none;
+	}
+	
+	footer .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border:none;
+	}
+	
+	footer .navbar-collapse {
+		box-shadow:none;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:767px) {
 	footer .collapse {
 		display:block;
 	}
@@ -1168,8 +1379,8 @@ a.mailto:hover, a.mailto:focus {
   font:300 37px 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.3333333;
   border-radius: 6px;
-	width:277px;
-	
+  max-width:277px;
+  width:100%;
 }
 
 .btn-danger {
@@ -1198,6 +1409,18 @@ a.mailto:hover, a.mailto:focus {
 .btn-gray.active  {
   color: #ffffff;
   background-color:#202020;
+}
+
+@media (min-width:301px) and (max-width:600px) {
+	.btn-xl,
+	.btn-group-xl > .btn {
+	  padding: 10px 16px;
+	  font:300 7vw 'Roboto', Arial, Helvetica, sans-serif;
+	  line-height: 1.3333333;
+	  border-radius: 6px;
+	  max-width:277px;
+	  width:100%;
+	}
 }
 
 /* margins */
