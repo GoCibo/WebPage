@@ -476,6 +476,11 @@ h2 {
 	padding:50px 0;
 }
 
+.deliverLove img {
+	width:100%;
+	max-width:340px;
+}
+
 .deliverLove .col-lg-8 p {
 	color:#ffffff;
 	margin-top:30px;
@@ -508,6 +513,8 @@ h2 {
 	left:0;
 	margin-left:-107px;
 	margin-top:-93px;
+	width:100%;
+	max-width:215px;
 }
 
 .dinner .boxStyle1 {
@@ -519,6 +526,41 @@ h2 {
 	left:0;
 	margin-left:-107px;
 	margin-top:-93px;
+}
+
+@media screen and (min-width:301px) and (max-width:479px) {
+	.lunch .boxStyle1 img {
+		top:50%;
+		left:0;
+		margin-left:-35%;
+		margin-top:-35%;
+		width:50%;
+		max-width:215px;
+	}
+	
+	#deliverySlots .lunch {
+		padding:0 0 0 85px;
+	}
+	
+	#deliverySlots .dinner {
+		padding:0 0 0 85px;
+	}
+	
+	.lunch .boxStyle1 {
+		padding:25px 25px 25px 50px;
+	}
+	
+	.boxStyle1 {
+		float:none;
+	}
+	
+	.dinner .boxStyle1 img {
+		width:50%;
+		top:50%;
+		left:0;
+		margin-left:-25%;
+		margin-top:-25%;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -1173,8 +1215,8 @@ a.mailto:hover, a.mailto:focus {
   font:300 37px 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.3333333;
   border-radius: 6px;
-	width:277px;
-	
+  max-width:277px;
+  width:100%;
 }
 
 .btn-danger {
@@ -1203,6 +1245,18 @@ a.mailto:hover, a.mailto:focus {
 .btn-gray.active  {
   color: #ffffff;
   background-color:#202020;
+}
+
+@media (min-width:301px) and (max-width:600px) {
+	.btn-xl,
+	.btn-group-xl > .btn {
+	  padding: 10px 16px;
+	  font:300 10vw 'Roboto', Arial, Helvetica, sans-serif;
+	  line-height: 1.3333333;
+	  border-radius: 6px;
+	  max-width:277px;
+	  width:100%;
+	}
 }
 
 /* margins */
