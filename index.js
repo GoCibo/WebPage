@@ -18,6 +18,31 @@ app.use('/fonts', express.static(path.join(__dirname, '/fonts')));
   app.all('/*', function(req, res) {
     res.sendfile('index.html');
   });
+  
+  app.all('/about-us.html', function(req, res) {
+    res.sendfile('about-us.html');
+  });  
+
+  app.all('/become-a-gocibo-chef.html', function(req, res) {
+    res.sendfile('become-a-gocibo-chef.html');
+  });
+
+  app.all('/careers.html', function(req, res) {
+    res.sendfile('careers.html');
+  });
+
+  app.all('/privacy-policy.html', function(req, res) {
+    res.sendfile('privacy-policy.html');
+  });
+
+  app.all('/quality-control.html', function(req, res) {
+    res.sendfile('quality-control.html');
+  });
+
+  app.all('/terms-and-conditions.html', function(req, res) {
+    res.sendfile('terms-and-conditions.html');
+  });
+
 
 app.listen(app.get('port'), function() {
 });
