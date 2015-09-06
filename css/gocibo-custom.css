@@ -108,7 +108,7 @@ a.snIcon:hover {
 	background-color:#303030 !important;
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:301px) and (max-width:767px) {
 	.topNav .navbar-nav {
 		background-color:#303030;
 		margin-top:0px;
@@ -602,6 +602,27 @@ h2 {
 	width:125px;
 }
 
+@media screen and (min-width:301px) and (max-width:600px) {
+	.homeChefIcon {
+		float:left;
+		width:30%;
+	}
+	
+	.homeChefIcon img {
+		width:100%;
+		max-width:135px;
+	}
+	
+	.homeChefContent {
+		float:left;
+		width:70%;
+	}
+	
+	.homeChefContent .btnResize {
+		font-size:90%;
+	}
+}
+
 /* contact us */
 #contactUs {
 	background-color:#f7f6f5;
@@ -639,6 +660,11 @@ h2 {
 	text-align:center;
 	margin-top:80px;
 }
+
+@media screen and (min-width:301px) and (max-width:600px) {
+	.dropMail {
+		margin-top:30px;
+	}
 
 /* testimonials */
 #testimonials .bannerTitle {
@@ -744,7 +770,7 @@ footer .row p {
 	float:right;
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:300px) and (max-width:767px) {
 	footer .collapse {
 		display:block;
 	}
@@ -1251,7 +1277,7 @@ a.mailto:hover, a.mailto:focus {
 	.btn-xl,
 	.btn-group-xl > .btn {
 	  padding: 10px 16px;
-	  font:300 10vw 'Roboto', Arial, Helvetica, sans-serif;
+	  font:300 7vw 'Roboto', Arial, Helvetica, sans-serif;
 	  line-height: 1.3333333;
 	  border-radius: 6px;
 	  max-width:277px;
