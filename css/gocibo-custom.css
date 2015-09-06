@@ -282,8 +282,9 @@ h1.banner2Title {
 }
 
 @media screen and (min-width:301px) and (max-width:399px) {
-	.bannerContent1 {
-		margin-top:-50%;
+	.bannerContent1 .col-lg-6 {
+		float:left;
+		width:50%;
 	}
 }
 
