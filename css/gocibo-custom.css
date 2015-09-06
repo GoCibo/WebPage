@@ -307,7 +307,7 @@ h1.banner2Title {
 	.bannerContent2 img {
 		width:100%;
 		margin-right:0;
-		margin-top:50%;
+		margin-top:80%;
 	}
 	
 	.bannerContent2 .rowPadding {
@@ -491,6 +491,11 @@ h2 {
 	#howItWorks .col-lg-4 {
 		padding-top:30px;
 	}
+	
+	#howItWorks img{
+		width:100%;
+		max-width:100px;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -606,7 +611,7 @@ h2 {
 		top:50%;
 		left:0;
 		margin-left:-35%;
-		margin-top:-35%;
+		margin-top:-25%;
 		width:50%;
 		max-width:215px;
 	}
