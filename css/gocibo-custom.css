@@ -206,7 +206,7 @@ h1.banner1Title {
 }
 
 .htbannerAlt2 {
-	display:none;
+	
 }
 
 .bannerContent2 .rowPadding {
@@ -215,7 +215,7 @@ h1.banner1Title {
 }
 
 .bannerContent2 img {
-	float:left;
+	float:right;
 	margin-right:20px;;
 }
 
@@ -229,7 +229,7 @@ h1.banner1Title {
 
 h1.banner2Title {
 	text-align:left;
-	font:100 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
+	font:300 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
 }
@@ -292,7 +292,7 @@ h1.banner2Title {
 	}
 	
 	h1.banner1Title {
-		font:100 130% "Roboto",Arial,Helvetica,sans-serif;
+		font:300 130% "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	.bannerContent1 .row {
@@ -440,6 +440,24 @@ h1.banner2Title {
 	.bannerContent2 {
 		width:80%;
 	}
+	
+	.row1, .row2 {
+		
+	}
+	
+	.htbannerAlt2 {
+		display:block;
+		width:80%;
+		top:50%;
+		left:50%;
+		margin-left:-40%;
+		margin-top:-15%;
+	}
+	
+	.htbannerAlt2 img{
+		width:100%;
+		max-width:881px;
+	}
 }
 
 /* how it works */
@@ -476,6 +494,7 @@ h2 {
 	text-align:center !important;
 	margin-top:14px;
 	margin-bottom:20px;
+	display:block;
 }
 
 #howItWorks .col-lg-4 p.txt {
@@ -496,9 +515,14 @@ h2 {
 		width:100%;
 		max-width:100px;
 	}
+	
+	#howItWorks .col-lg-4 p.txt {
+		margin:0 10% 0 10%;
+		text-align:left;
+	}
 }
 
-@media screen and (min-width:400px) and (max-width:767px) {
+@media screen and (min-width:601px) and (max-width:900px) {
 	#howItWorks {
 		
 	}
@@ -508,17 +532,21 @@ h2 {
 	}
 	
 	#howItWorks .col-lg-4 p.txt {
-		margin:0 10% 0 39%;
+		margin:0 20% 0 20%;
+		text-align:left;
 	}
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (min-width:901px) and (max-width:1200px) {
 	#howItWorks .col-lg-4 p.txt {
-		text-align:center;
+		text-align:left;
+		margin:0 8%;
 	}
 	
 	#howItWorks .row .col-lg-4{
 		margin-bottom:40px;
+		width:33.3333%;
+		float:left;
 	}
 }
 
@@ -1048,6 +1076,10 @@ footer .row p {
 	float:none;
 }
 
+.stepRowMar {
+	margin-top:40px;
+}
+
 ul.paymentList {
 	margin-top:5%;
 }
@@ -1072,12 +1104,91 @@ article.deliverLove img.loveText {
 	max-width:480px;
 }
 
-article.deliverLove img.loveTiffin {
+article.deliverLove .loveTiffin img {
 	width:100%;
 	max-width:73px;
 }
 
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (min-width:300px) and (max-width:480px) { 
+	#steps .stepNo {
+		border-radius: 40px;
+		font: 700 10vw/41px "Roboto",Arial,Helvetica,sans-serif;
+		height: 80px;
+		width: 80px;
+	}
+	
+	#steps .stepDesc {
+		left: 5%;
+		top: -13%;
+		width: 95%;
+		padding:20px 20px 20px 80px;
+		font-size:20px;
+	}
+	
+	#steps .call {
+		padding:0 12% 0 10%;
+		background:url(../images/icon-call.png) no-repeat left top / 30px auto, url(../images/icon-whatsapp.png) no-repeat right top / 44px auto;
+		min-height:70px;
+		margin-top:10px;
+	}
+	
+	.becomeBannerContent {
+		display:none;
+	}
+	
+	.bbContentAlt {
+		display:block;
+		margin-bottom:-100px;
+		bottom:50%;
+	}
+	
+	.bbContentAlt img {
+		width:100%;
+	}
+	
+	#steps .call {
+		padding:0 29% 0 22%;
+	}
+	
+	#steps .stepSecDesc {
+		width:60%;
+		margin-top:0;
+	}
+	
+	.step img {
+		width:60px;
+	}
+	
+	.stepRowMar {
+		margin-top:0;
+	}
+	
+	.ic2 {
+		margin-top:10px !important;
+	}
+	
+	.ic3 {
+		margin-top:-10px !important;
+	}
+	
+	.ic4 {
+		margin-top:20px !important;
+	}
+	
+	.step2 img {
+		width:100%;
+	}
+	
+	.paymentImg {
+		text-align:center;
+	}
+	
+	article.deliverLove .loveTiffin {
+		text-align:center;
+	}
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
 	.becomeBannerContent {
 		display:none;
 	}
@@ -1107,10 +1218,22 @@ article.deliverLove img.loveTiffin {
 	}
 	
 	#steps .stepDesc {
-	left:10%;
-	font-size:20px;
-	width:90%;
-}
+		left:10%;
+		font-size:20px;
+		width:90%;
+	}
+	
+	.stepRowMar {
+		margin-top:0;
+	}
+	
+	.paymentImg {
+		text-align:center;
+	}
+	
+	article.deliverLove .loveTiffin {
+		text-align:center;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -1133,6 +1256,10 @@ article.deliverLove img.loveTiffin {
 		left:15%;
 		right:15%;
 	}
+	
+	.stepRowMar {
+		margin-top:0;
+	}
 }
 
 @media screen and (min-width:1200px) {
@@ -1143,6 +1270,10 @@ article.deliverLove img.loveTiffin {
 	
 	#steps article .container {
 		width:1170px;
+	}
+	
+	.becomeBannerContent .col-lg-3 img {
+		width:100%;
 	}
 }
 
@@ -1418,7 +1549,16 @@ a.mailto:hover, a.mailto:focus {
 	  font:300 7vw 'Roboto', Arial, Helvetica, sans-serif;
 	  line-height: 1.3333333;
 	  border-radius: 6px;
-	  max-width:277px;
+	  width:100%;
+	}
+}
+
+@media (min-width:901px) and (max-width:1200px) {
+	.btn-xl,
+	.btn-group-xl > .btn {
+	  padding: 10px 16px;
+	  font:300 25px/1.33333 "Roboto",Arial,Helvetica,sans-serif;
+	  border-radius: 6px;
 	  width:100%;
 	}
 }
