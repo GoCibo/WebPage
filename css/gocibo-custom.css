@@ -108,7 +108,7 @@ a.snIcon:hover {
 	background-color:#303030 !important;
 }
 
-@media screen and (min-width:301px) and (max-width:767px) {
+@media screen and (min-width:480px) and (max-width:767px) {
 	.topNav .navbar-nav {
 		background-color:#303030;
 		margin-top:0px;
@@ -732,27 +732,6 @@ h2 {
 	text-align:center;
 }
 
-@media screen and (min-width:300px) and (max-width:399px) {
-	#testimonials .bannerTitle {
-	font-size:25px;
-	}
-
-	#testimonials p {
-		font-size:14px;
-	}
-	
-	#testimonials .carousel {
-		top:0px;
-		margin-bottom:0px;
-	}
-	
-	#testimonials .carousel-caption {
-		padding-bottom:0;
-		bottom:50%;
-		margin-bottom:-80px;
-	}
-}
-
 @media screen and (min-width:400px) and (max-width:767px) {
 	#testimonials .bannerTitle {
 	font-size:25px;
@@ -826,24 +805,6 @@ footer .row p {
 .socialIcons img {
 	margin-left:20px;
 	float:right;
-}
-
-@media screen and (min-width:301px) and (max-width:479px) {
-	footer .collapse {
-		display:block;
-	}
-	
-	footer.navbar-nav {
-		background-color:none;
-	}
-	
-	footer .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		border:none;
-	}
-	
-	footer .navbar-collapse {
-		box-shadow:none;
-	}
 }
 
 @media screen and (min-width:480px) and (max-width:767px) {
