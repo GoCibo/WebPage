@@ -586,6 +586,11 @@ h2 {
 	padding:10px;
 }
 
+#contactUs img {
+	width:100%;
+	max-width:394px;
+}
+
 .dropMail {
 	color:#303030 !important;
 	font-size:14px;
