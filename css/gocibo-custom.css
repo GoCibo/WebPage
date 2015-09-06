@@ -732,14 +732,9 @@ h2 {
 	text-align:center;
 }
 
-@media screen and (min-width:300px) and (max-width:399px) {
-	#testimonials .carousel {
-		top:0px;
-		margin-bottom:0px;
-	}
-}
 
-@media screen and (min-width:400px) and (max-width:767px) {
+
+@media screen and (min-width:480px) and (max-width:767px) {
 	#testimonials .bannerTitle {
 	font-size:25px;
 	}
