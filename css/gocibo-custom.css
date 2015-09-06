@@ -733,24 +733,7 @@ h2 {
 }
 
 @media screen and (min-width:300px) and (max-width:399px) {
-	#testimonials .bannerTitle {
-	font-size:25px;
-	}
-
-	#testimonials p {
-		font-size:14px;
-	}
 	
-	#testimonials .carousel {
-		top:-50px;
-		margin-bottom:0px;
-	}
-	
-	#testimonials .carousel-caption {
-		padding-bottom:0;
-		bottom:50%;
-		margin-bottom:-80px;
-	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
