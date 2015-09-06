@@ -733,9 +733,7 @@ h2 {
 }
 
 @media screen and (min-width:300px) and (max-width:399px) {
-	#testimonials {
-		margin:-20px 0;
-	}
+	
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -811,6 +809,24 @@ footer .row p {
 .socialIcons img {
 	margin-left:20px;
 	float:right;
+}
+
+@media screen and (min-width:301px) and (max-width:479px) {
+	footer .collapse {
+		display:block;
+	}
+	
+	footer.navbar-nav {
+		background-color:none;
+	}
+	
+	footer .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border:none;
+	}
+	
+	footer .navbar-collapse {
+		box-shadow:none;
+	}
 }
 
 @media screen and (min-width:480px) and (max-width:767px) {
