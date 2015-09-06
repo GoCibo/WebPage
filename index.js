@@ -15,7 +15,7 @@ app.use('/js', express.static(path.join(__dirname, '/js')));
 app.use('/css', express.static(path.join(__dirname, '/css')));
 app.use('/fonts', express.static(path.join(__dirname, '/fonts')));
 
-  app.all('/', function(req, res) {
+  app.all('/index.html', function(req, res) {
     res.sendfile('index.html');
   });
   
