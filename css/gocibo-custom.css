@@ -299,6 +299,49 @@ h1.banner2Title {
 		margin-left:0;
 		margin-right:0;
 	}
+	
+	.bannerContent2 {
+		top:25%;
+	}
+	
+	.bannerContent2 img {
+		width:100%;
+		margin-right:0;
+		margin-top:80%;
+	}
+	
+	.bannerContent2 .rowPadding {
+		padding:0;
+	}
+	
+	.bannerContent2 .row {
+		margin:0;
+	}
+	
+	.bannerContent2 p {
+		font-size:5vw;
+	}
+	
+	h1.banner2Title {
+		font-size:5vw;
+		line-height:6vw;
+	}
+	
+	.haath {
+		padding:0 15px 0 15px !important;
+	}
+	
+	.bannerContent2 .col-lg-3 {
+		width:30%;
+		float:left;
+		margin:0;
+	}
+	
+	.bannerContent2 .col-lg-9 {
+		width:70%;
+		float:left;
+		margin:0;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
