@@ -342,6 +342,16 @@ h1.banner2Title {
 		float:left;
 		margin:0;
 	}
+	
+	.htbannerAlt2 {
+		position:absolute;
+		margin-top:-18%;
+		top:50%;
+	}
+	
+	.htbannerAlt2 img{
+		width:100%;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -1138,12 +1148,18 @@ article.deliverLove .loveTiffin img {
 	
 	.bbContentAlt {
 		display:block;
-		margin-bottom:-100px;
-		bottom:50%;
 	}
 	
 	.bbContentAlt img {
 		width:100%;
+	}
+	
+	#becomeGociboBanner {
+		min-height:unset;
+	}
+	
+	#becomeGociboBanner .carousel {
+		padding-top:80px;
 	}
 	
 	#steps .call {
