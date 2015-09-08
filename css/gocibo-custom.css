@@ -64,6 +64,18 @@ a.snIcon:hover {
 	background:none;
 }
 
+@media screen and (min-width:301px) and (max-width:600px) {
+	h2 {
+		font-size:20px !important;
+	}
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+	h2 {
+		font-size:20px !important;
+	}
+}
+
 /* nav bar */
 .navbar-brand {
   background:url(../images/logo-gocibo.png) no-repeat 20px 20px;
