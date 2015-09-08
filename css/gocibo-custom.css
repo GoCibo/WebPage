@@ -1158,9 +1158,13 @@ footer .row p {
 	text-align:center;
 }
 
+.bbContentAlt2 {
+	display:none;
+}
+
 .bbContentAlt img {
 	width:100%;
-	max-width:959px;
+	max-width:943px;
 }
 
 .becomeBannerContent {
@@ -1237,7 +1241,6 @@ footer .row p {
 }
 
 #steps .stepSecDesc img{
-	
 	float:left;
 }
 
@@ -1327,11 +1330,15 @@ article.deliverLove .loveTiffin img {
 	}
 	
 	.bbContentAlt {
+		display:none;
+	}
+	
+	.bbContentAlt2 {
 		display:block;
 		padding:30% 5% 20% 5%;
 	}
 	
-	.bbContentAlt img {
+	.bbContentAlt2 img {
 		width:100%;
 	}
 	
@@ -1391,11 +1398,15 @@ article.deliverLove .loveTiffin img {
 	}
 	
 	.bbContentAlt {
+		display:none;
+	}
+	
+	.bbContentAlt2 {
 		display:block;
 		padding:30% 5% 20% 5%;
 	}
 	
-	.bbContentAlt img {
+	.bbContentAlt2 img {
 		width:100%;
 	}
 	
@@ -1438,6 +1449,10 @@ article.deliverLove .loveTiffin img {
 
 @media screen and (min-width:768px) and (max-width:1199px) {
 	.becomeBannerContent {
+		display:none;
+	}
+	
+	.bbContentAlt2 {
 		display:none;
 	}
 	
