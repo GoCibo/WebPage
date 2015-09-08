@@ -101,7 +101,7 @@ a.snIcon:hover {
 .navbar-default .navbar-nav > li > a {
 	color:#ffffff;
 	text-transform:uppercase;
-	font:500 14px 'Roboto', Arial, Helvetica, sans-serif;
+	font:400 15px 'Roboto Condensed', Arial, Helvetica, sans-serif;
 	padding:0;
 }
 
@@ -164,6 +164,7 @@ a.snIcon:hover {
 	.navbar-default .topNav .navbar-nav > li > a:focus {
 	  color: #ffffff;
 	  background-color: #303030;
+	  font-size:13px;
 	}
 	
 	.navbar-default {
@@ -182,8 +183,13 @@ a.snIcon:hover {
 		background-color:#303030;
 	}
 	
+	.navbar-default .navbar-nav > li  {
+		padding:7px 15px;
+	}
+	
 	.navbar-default .navbar-nav > li > a {
 		border-bottom:2px solid #303030;
+	  font-size:13px;
 	}
 }
 
@@ -517,10 +523,8 @@ h2 {
 	padding:20px;
 	margin:0 auto 0 auto;
 	font-weight:100;
-}
-
-#howItWorks h2 {
-	width:225px;
+	text-transform:uppercase;
+	display:inline-block;
 }
 
 #howItWorks .col-lg-4 {
@@ -530,7 +534,7 @@ h2 {
 #howItWorks .col-lg-4 p.btn {
 	text-align:center !important;
 	margin-top:14px;
-	margin-bottom:20px;
+	margin-bottom:8px;
 	display:block;
 }
 
@@ -593,7 +597,6 @@ h2 {
 }
 
 #deliverySlots h2 {
-	width:235px;
 	color:#ffffff;
 	margin-bottom:50px;
 }
@@ -745,7 +748,6 @@ h2 {
 
 #ourChefs h2 {
 	margin-bottom:50px;
-	width:125px;
 }
 
 @media screen and (min-width:301px) and (max-width:600px) {
@@ -776,7 +778,6 @@ h2 {
 }
 
 #contactUs h2 {
-	width:200px;
 	margin-bottom:60px;
 }
 
@@ -918,8 +919,10 @@ h2 {
 }
 
 footer .row p {
-	text-align:center;
-	font-size:14px;
+	text-align:left;
+	font-size:12px;
+	margin-left:15px;
+	margin-right:15px;
 }
 
 .copyRight {
@@ -940,6 +943,7 @@ footer .row p {
 @media screen and (min-width:301px) and (max-width:479px) {
 	.socialIcons {
 		float:left;
+		margin-top:0;
 	}
 	
 	.snIcon, a.snIcon {
@@ -948,7 +952,7 @@ footer .row p {
 	}
 	
 	.footNavContainer .navbar-nav > li {
-		padding:17px 15px 13px;
+		padding:7px 15px 7px;
 	}
 	
 	.footNavContainer .navbar-nav > li > a {
@@ -987,6 +991,41 @@ footer .row p {
 	
 	footer .navbar-collapse {
 		box-shadow:none;
+	}
+	
+	.footNavContainer .navbar-nav > li {
+		padding:7px 15px 7px;
+	}
+	
+	.socialIcons {
+		float:left;
+		margin-top:0;
+	}
+	
+	.snIcon, a.snIcon {
+		margin-left:0;
+		margin-right:15px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+	footer .navbar-default .navbar-nav > li > a {
+		font-size:13px;
+	}
+	
+	.socialIcons {
+		float:left;
+		margin-top:0;
+		margin-left:10px;
+	}
+	
+	.snIcon, a.snIcon {
+		margin-left:0;
+		margin-right:15px;
+	}
+	
+	footer .row p {
+		margin-left:25px;
 	}
 }
 
@@ -1329,7 +1368,6 @@ article.deliverLove .loveTiffin img {
 }
 
 #careers h2 {
-	display:inline-block;
 	color:#303030;
 	border-color:#f04322;
 	margin-bottom:50px;
@@ -1487,7 +1525,6 @@ a.mailto:hover, a.mailto:focus {
 }
 
 #aboutUs h2 {
-	display:inline-block;
 	color:#303030;
 	border-color:#f04322;
 	margin-bottom:50px;
