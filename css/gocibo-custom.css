@@ -300,6 +300,10 @@ h1.banner2Title {
 	max-width:729px;
 }
 
+.btnBecome {
+	margin-top:20px;
+}
+
 .bg3NoRpt {
 	background:url(../images/gocibo-chef.jpg) no-repeat center;
 	position:relative;
@@ -316,7 +320,7 @@ h1.banner2Title {
 }
 
 @media screen and (min-width:301px) and (max-width:399px) {
-	.bannerContent1 .col-lg-6 {
+	.bannerContent1 .col-lg-7, .bannerContent1 .col-lg-5 {
 		width:100%;
 	}
 	
@@ -325,7 +329,7 @@ h1.banner2Title {
 	}
 	
 	h1.banner1Title {
-		font:300 10vw "Roboto",Arial,Helvetica,sans-serif;
+		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	.bannerContent1 .row {
@@ -385,10 +389,14 @@ h1.banner2Title {
 	.htbannerAlt2 img{
 		width:100%;
 	}
+	
+	.bannerContent3 {
+		margin-top:-25%;
+	}
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
-	.bannerContent1 .col-lg-6 {
+	.bannerContent1 .col-lg-7, .bannerContent1 .col-lg-5 {
 		float:left;
 		width:50%;
 	}
@@ -430,9 +438,15 @@ h1.banner2Title {
 
 @media screen and (min-width:768px) and (max-width:1199px) {
 	
-	.bannerContent1 .col-lg-6 {
+	.bannerContent1 .col-lg-7 { 
 		float:left;
-		width:50%;
+		width:60%;
+	}
+	
+	.bannerContent1 .col-lg-5 {
+		float:left;
+		width:40%;
+		margin-top:5%;
 	}
 	
 	
@@ -500,6 +514,10 @@ h1.banner2Title {
 	.htbannerAlt2 img{
 		width:100%;
 		max-width:881px;
+	}
+	
+	.bannerContent1 .col-lg-5 {
+		margin-top:3%;
 	}
 }
 
