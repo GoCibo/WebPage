@@ -1,6 +1,6 @@
 /* global */
 body {
-	font:300 16px/22px 'Roboto', sans-serif;
+	font:300 14px/21px 'Roboto', sans-serif;
 	color:#303030;
 }
 
@@ -50,6 +50,18 @@ a.snIcon:hover {
 
 .in:hover {
 	background:url(../images/icon-linkedin-hover.png) no-repeat left top;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#ffffff;
+}
+
+.navbar-default .navbar-toggle {
+	border:none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background:none;
 }
 
 /* nav bar */
@@ -492,7 +504,7 @@ h2 {
 	text-align:center;
 	padding:20px;
 	margin:0 auto 0 auto;
-	font-weight:300;
+	font-weight:100;
 }
 
 #howItWorks h2 {
@@ -716,7 +728,6 @@ h2 {
 #ourChefs {
 	background-color:#ec1e24;
 	color:#ffffff;
-	font-weight:400;
 	padding-bottom:110px;
 }
 
@@ -1007,7 +1018,6 @@ footer .row p {
 	font-size:16px;
 	margin-top:12px;
 	text-shadow:none;
-	font-weight:400;
 }
 
 #steps {
@@ -1346,7 +1356,6 @@ a.mailto:hover, a.mailto:focus {
 	display:inline-block;
 	text-align:left;
 	margin-top:32px;
-	font-weight:400;
 }
 
 #myCarousel3 .carousel-caption p span{
@@ -1524,7 +1533,6 @@ a.mailto:hover, a.mailto:focus {
 
 #qControl h2 {
 	color:#ec1e24;
-	font-weight:300;
 	text-transform:uppercase;
 	border:none;
 }
@@ -1563,7 +1571,7 @@ a.mailto:hover, a.mailto:focus {
 .btn-xl,
 .btn-group-xl > .btn {
   padding: 10px 16px;
-  font:300 37px 'Roboto', Arial, Helvetica, sans-serif;
+  font:100 37px 'Roboto', Arial, Helvetica, sans-serif;
   line-height: 1.3333333;
   border-radius: 6px;
   max-width:277px;
