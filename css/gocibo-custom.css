@@ -65,14 +65,14 @@ a.snIcon:hover {
 }
 
 @media screen and (min-width:301px) and (max-width:600px) {
-	h2 {
-		font-size:20px !important;
+	h2, .h2 {
+		font-size:25px !important;
 	}
 }
 
 @media screen and (min-width:601px) and (max-width:900px) {
-	h2 {
-		font-size:20px !important;
+	h2, .h2 {
+		font-size:25px !important;
 	}
 }
 
