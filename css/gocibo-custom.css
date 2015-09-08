@@ -1384,7 +1384,19 @@ a.mailto:hover, a.mailto:focus {
 	background:url(../images/banner-career.jpg) no-repeat center;
 }
 
+@media screen and (min-width:301px) and (max-width:479px) {
+	.caseStyle {
+		text-align:center;
+		margin-bottom:30px;
+	}
+}
+
 @media screen and (min-width:480px) and (max-width:767px) {
+	.caseStyle {
+		text-align:center;
+		margin-bottom:30px;
+	}
+	
 	#careers {
 		margin-top:90px;
 	}
@@ -1412,6 +1424,11 @@ a.mailto:hover, a.mailto:focus {
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
+	.caseStyle {
+		text-align:center;
+		margin-bottom:30px;
+	}
+	
 	.carousel-inner > .item {
 		top:0;
 	}
