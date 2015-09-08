@@ -287,12 +287,15 @@ h1.banner2Title {
 
 @media screen and (min-width:301px) and (max-width:399px) {
 	.bannerContent1 .col-lg-6 {
-		float:left;
-		width:50%;
+		width:100%;
+	}
+	
+	.bannerContent1 {
+		margin-top:-40%;
 	}
 	
 	h1.banner1Title {
-		font:300 130% "Roboto",Arial,Helvetica,sans-serif;
+		font:300 10vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	.bannerContent1 .row {
