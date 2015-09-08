@@ -1455,9 +1455,13 @@ a.mailto:hover, a.mailto:focus {
 	margin-bottom:50px;
 }
 
-@media screen and (min-width:480px) and (max-width:767px) {
+@media screen and (min-width:301px) and (max-width:600px) {
 	#aboutUs {
-		margin-top:90px;
+		margin-top:0px;
+	}
+	
+	.panStyle {
+		text-align:center;
 	}
 }
 
