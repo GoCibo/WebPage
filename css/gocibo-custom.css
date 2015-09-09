@@ -455,11 +455,11 @@ table.maaKhaana {
 	}
 	
 	.doubleColumn {
-		display:none;
+		display:block;
 	}
 	
 	.singleColumn {
-		display:block;
+		display:none;
 	}
 	
 	.bannerContent2 {
@@ -467,29 +467,30 @@ table.maaKhaana {
 		margin-top:0;
 	}
 	
-	.singleColumn .col-lg-6 {
-		position:relative;
-		float:left;
-		margin-bottom:10px;
+	.bannerContent2 p {
+		font-size:12px;
+		line-height:18px;
 	}
 	
-	.singleColumn img {
-		position:absolute;
-		top:50%;
-		left:0;
-		margin-top:-20px;
+	.bannerContent2 img {
 		height:40px;
 	}
 	
-	.singleColumn p {
-		padding-left:60px;
-		font-size:16px;
+	table.homeBanner2Col2 {
+		width:100%;
+	}
+
+	table.homeBanner2Col2 tr td {
+		padding:15px 0;
+	}
+
+	table.maaKhaana {
+		margin:auto;
 	}
 	
-	.singleColumn .row1 {
-		width:80%;
-		margin:auto;
-		padding-bottom:0;
+	h1.banner1Title {
+		text-align:left;
+		text-shadow:none;
 	}
 
 	table.maaKhaana {
