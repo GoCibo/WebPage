@@ -1174,7 +1174,7 @@ footer .row p {
 #becomeGociboBanner h1.banner2Title {
 	border-radius:10px;
 	text-align:center;
-	padding:8px 20px;
+	padding:8px 30px 8px 20px;
 	display:inline-block;
 	background-color:#ec1e24;
 }
@@ -1231,6 +1231,7 @@ footer .row p {
 	font-size:16px;
 	margin-top:12px;
 	text-shadow:none;
+	font-weight:400;
 }
 
 #steps {
@@ -1369,8 +1370,7 @@ article.deliverLove .loveTiffin img {
 }
 
 p.highLight {
-	font:normal 20px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
-	color:#ec1e24;
+	font:normal 25px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width:300px) and (max-width:480px) { 
@@ -1434,6 +1434,10 @@ p.highLight {
 	
 	.chefBannerBlock p {
 		font-size:12px;
+	}
+	
+	p.highLight {
+		font-size:16px;
 	}
 	
 	h1.banner2Title {
@@ -1538,6 +1542,10 @@ p.highLight {
 	.chefTblCol2 p {
 		margin-left:15px;
 		font-size:14px;
+	}
+	
+	p.highLight {
+		font-size:18px;
 	}
 	
 	.tblSpacer {
