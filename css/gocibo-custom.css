@@ -1518,18 +1518,34 @@ article.deliverLove .loveTiffin img {
 	}
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width:480px) and (max-width:768px) {
 	.becomeBannerContent {
-		width:80%;
-		margin:0 0 0 -40%;
+		width:90%;
+		margin:0 0 0 -45%;
 		top:5%;
+	}
+	
+	.becomeBannerContent .rowPadding {
+		padding-bottom: 0px;
+		padding-top: 0px;
 	}
 
 	.chefBannerBlock {
-		width:100%;
-		margin:0 2% 40px 2%;
-		min-height:unset;
-		padding-right:100px;
+		width:46%;
+		margin:0 2% 0px 2%;
+		min-height:80px;
+		padding-right:60px;
+	}
+	
+	.chefBannerBlock img {
+		height:50px;
+		margin-top:-25px;
+
+	}
+	
+	.chefBannerBlock p{
+		font-size:12px;
+		margin:0px;
 	}
 	
 	h1.banner2Title {
