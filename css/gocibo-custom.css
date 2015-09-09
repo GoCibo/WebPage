@@ -1405,7 +1405,7 @@ article.deliverLove .loveTiffin img {
 	
 	.becomeBannerContent .rowPadding {
 		padding-bottom: 0;
-		padding-top: 15px;
+		padding-top: 5px;
 	}
 	
 	.becomeBannerContent {
@@ -1416,9 +1416,18 @@ article.deliverLove .loveTiffin img {
 
 	.chefBannerBlock {
 		width:100%;
-		margin:0 2% 20px 2%;
-		min-height:unset;
+		margin:0 2% 0 2%;
+		min-height:65px;
 		padding-right:100px;
+	}
+	
+	.chefBannerBlock img {
+		height:50px;
+		margin-top:-25px;
+	}
+	
+	.chefBannerBlock p {
+		font-size:12px;
 	}
 	
 	h1.banner2Title {
