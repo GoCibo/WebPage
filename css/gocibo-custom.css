@@ -259,7 +259,7 @@ h1.banner1Title {
 
 h1.banner2Title {
 	text-align:left;
-	font:300 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
+	font:100 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
 }
@@ -1195,9 +1195,32 @@ footer .row p {
 }
 
 .becomeBannerContent {
-	left:15%;
-	right:15%;
-	bottom:50px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:1100px;
+	margin:-250px 0 0 -550px;
+}
+
+.chefBannerBlock {
+	width:29%;
+	float:left;
+	position:relative;
+	padding-right:90px;
+	margin:0 2%;
+	min-height:100px;
+}
+
+.chefBannerBlock img {
+	position:absolute;
+	right:0;
+	top:50%;
+	margin-top:-37px;
+	margin-right:0;
+}
+
+.chefBannerBlock p {
+	
 }
 
 .becomeBannerContent .rowPadding {
@@ -1380,8 +1403,26 @@ article.deliverLove .loveTiffin img {
 		margin-top:10px;
 	}
 	
+	.becomeBannerContent .rowPadding {
+		padding-bottom: 0;
+		padding-top: 15px;
+	}
+	
 	.becomeBannerContent {
-		display:none;
+		width:80%;
+		margin:0 0 0 -40%;
+		top:5%;
+	}
+
+	.chefBannerBlock {
+		width:100%;
+		margin:0 2% 20px 2%;
+		min-height:unset;
+		padding-right:100px;
+	}
+	
+	h1.banner2Title {
+		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	.bbContentAlt {
@@ -1470,7 +1511,20 @@ article.deliverLove .loveTiffin img {
 
 @media screen and (min-width:481px) and (max-width:768px) {
 	.becomeBannerContent {
-		display:none;
+		width:80%;
+		margin:0 0 0 -40%;
+		top:5%;
+	}
+
+	.chefBannerBlock {
+		width:100%;
+		margin:0 2% 40px 2%;
+		min-height:unset;
+		padding-right:100px;
+	}
+	
+	h1.banner2Title {
+		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	.bbContentAlt {
@@ -1489,11 +1543,6 @@ article.deliverLove .loveTiffin img {
 	article.step2 img {
 		width:100%;
 		max-width:591px;
-	}
-	
-	#becomeGociboBanner .carousel-caption {
-		left:10%;
-		right:10%;
 	}
 	
 	#steps .call {
@@ -1542,7 +1591,19 @@ article.deliverLove .loveTiffin img {
 
 @media screen and (min-width:768px) and (max-width:1199px) {
 	.becomeBannerContent {
-		display:none;
+		width:80%;
+		margin:0 0 0 -40%;
+		top:5%;
+	}
+
+	.chefBannerBlock {
+		width:46%;
+		margin:0 2% 20px 2%;
+		min-height:80px;
+	}
+	
+	h1.banner2Title {
+		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	.bbContentAlt2 {
@@ -1557,11 +1618,6 @@ article.deliverLove .loveTiffin img {
 	.bbContentAlt img {
 		width:100%;
 		max-width:959px;
-	}
-	
-	#becomeGociboBanner .carousel-caption {
-		left:15%;
-		right:15%;
 	}
 	
 	.stepRowMar {
@@ -1591,11 +1647,6 @@ article.deliverLove .loveTiffin img {
 }
 
 @media screen and (min-width:1200px) {
-	.becomeBannerContent {
-		width:900px;
-		margin:auto;
-	}
-	
 	#steps article .container {
 		width:1170px;
 	}
