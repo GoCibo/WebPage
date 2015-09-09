@@ -259,7 +259,7 @@ h1.banner1Title {
 
 h1.banner2Title {
 	text-align:left;
-	font:100 45px/50px 'Roboto', Arial, Helvetica, sans-serif;
+	font:normal 45px/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
 }
@@ -1179,21 +1179,6 @@ footer .row p {
 	background-color:#ec1e24;
 }
 
-.bbContentAlt {
-	display:block;
-	padding:10% 5% 10%;
-	text-align:center;
-}
-
-.bbContentAlt2 {
-	display:none;
-}
-
-.bbContentAlt img {
-	width:100%;
-	max-width:943px;
-}
-
 .becomeBannerContent {
 	position:absolute;
 	top:50%;
@@ -1431,20 +1416,7 @@ article.deliverLove .loveTiffin img {
 	}
 	
 	h1.banner2Title {
-		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
-	}
-	
-	.bbContentAlt {
-		display:none;
-	}
-	
-	.bbContentAlt2 {
-		display:block;
-		padding:30% 5% 20% 5%;
-	}
-	
-	.bbContentAlt2 img {
-		width:100%;
+		font:100 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	#becomeGociboBanner {
@@ -1549,20 +1521,7 @@ article.deliverLove .loveTiffin img {
 	}
 	
 	h1.banner2Title {
-		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
-	}
-	
-	.bbContentAlt {
-		display:none;
-	}
-	
-	.bbContentAlt2 {
-		display:block;
-		padding:30% 5% 20% 5%;
-	}
-	
-	.bbContentAlt2 img {
-		width:100%;
+		font:100 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	article.step2 img {
@@ -1625,24 +1584,6 @@ article.deliverLove .loveTiffin img {
 		width:46%;
 		margin:0 2% 20px 2%;
 		min-height:80px;
-	}
-	
-	h1.banner2Title {
-		font:100 4vw/50px 'Roboto', Arial, Helvetica, sans-serif;
-	}
-	
-	.bbContentAlt2 {
-		display:none;
-	}
-	
-	.bbContentAlt {
-		display:block;
-		padding:30% 5% 20% 5%;
-	}
-	
-	.bbContentAlt img {
-		width:100%;
-		max-width:959px;
 	}
 	
 	.stepRowMar {
