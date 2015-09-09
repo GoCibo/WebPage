@@ -1188,33 +1188,40 @@ footer .row p {
 }
 
 .chefBannerBlock {
-	width:29%;
+	width:96%;
 	float:left;
 	position:relative;
-	padding-right:90px;
+	padding-left:90px;
 	margin:0 2%;
-	min-height:100px;
 }
 
 .chefBannerBlock img {
 	position:absolute;
-	right:0;
+	left:0;
 	top:50%;
 	margin-top:-37px;
 	margin-right:0;
 }
 
-.chefBannerBlock p {
-	
+.chefTblCol2, .chefTblCol1 {
+	display:none;
+}
+
+.chefTblCol3 tr td {
+	padding:20px 0;
+}
+
+.chefTblCol3 .tblSpacer {
+	width:30px;
+}
+
+.chefTblCol3 p {
+	padding-left:20px;
 }
 
 .becomeBannerContent .rowPadding {
 	padding-top:25px;
 	padding-bottom:25px;
-}
-
-.becomeBannerContent img {
-	float:right;
 }
 
 .becomeBannerContent p {
@@ -1361,6 +1368,11 @@ article.deliverLove .loveTiffin img {
 	margin:auto;
 }
 
+p.highLight {
+	font:normal 20px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
+	color:#ec1e24;
+}
+
 @media screen and (min-width:300px) and (max-width:480px) { 
 	#steps .stepNo {
 		border-radius: 40px;
@@ -1388,6 +1400,14 @@ article.deliverLove .loveTiffin img {
 		margin-top:10px;
 	}
 	
+	.chefTblCol2, .chefTblCol3 {
+		display:none;
+	}
+	
+	.chefTblCol1 {
+		display:block;
+	}
+	
 	.becomeBannerContent .rowPadding {
 		padding-bottom: 0;
 		padding-top: 5px;
@@ -1403,7 +1423,8 @@ article.deliverLove .loveTiffin img {
 		width:100%;
 		margin:0 2% 0 2%;
 		min-height:65px;
-		padding-right:100px;
+		padding-top:5px;
+		padding-bottom:5px;
 	}
 	
 	.chefBannerBlock img {
@@ -1498,8 +1519,29 @@ article.deliverLove .loveTiffin img {
 	}
 	
 	.becomeBannerContent .rowPadding {
-		padding-bottom: 0px;
-		padding-top: 0px;
+		padding-top:0;
+		padding-bottom:0;
+	}
+	
+	.chefTblCol1, .chefTblCol3 {
+		display:none;
+	}
+	
+	.chefTblCol2 {
+		display:block;
+	}
+	
+	.chefTblCol2 img {
+		width:60px;
+	}
+	
+	.chefTblCol2 p {
+		margin-left:15px;
+		font-size:14px;
+	}
+	
+	.tblSpacer {
+		width:20px;
 	}
 
 	.chefBannerBlock {
@@ -1579,11 +1621,34 @@ article.deliverLove .loveTiffin img {
 		margin:0 0 0 -40%;
 		top:5%;
 	}
+	
+	.chefTblCol2, .chefTblCol3{
+		display:none;
+	}
+	
+	.chefTblCol2 {
+		display:block;
+	}
+	
+	.chefTblCol2 tr td {
+		padding:15px 0;
+	}
+	
+	.chefTblCol2 img {
+	}
+	
+	.chefTblCol2 p {
+		margin-left:15px;
+		margin-top:0;
+	}
+	
+	.tblSpacer {
+		width:20px;
+	}
 
 	.chefBannerBlock {
-		width:46%;
+		width:96%;
 		margin:0 2% 20px 2%;
-		min-height:80px;
 	}
 	
 	.stepRowMar {
