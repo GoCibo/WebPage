@@ -193,13 +193,13 @@ a.snIcon:hover {
 	}
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
-	
-}
-
 /* carousel */
 .carousel-control.right, .carousel-control.left {
 	background:none !important;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin:auto;
 }
 
 .bannerContent1 {
@@ -217,6 +217,10 @@ a.snIcon:hover {
 	max-width:450px;
 }
 
+.bannerContent1 .col-lg-5 {
+	margin-top:3%;
+}
+
 h1.banner1Title {
 	text-align:left;
 	font:100 5vw/5vw 'Roboto', Arial, Helvetica, sans-serif;
@@ -231,17 +235,14 @@ h1.banner1Title {
 	top:50%;
 	left:50%;
 	margin-left:-40%;
-	margin-top:-13%;
-	
-}
-
-.htbannerAlt2 {
-	
+	margin-top:-16%;
 }
 
 .bannerContent2 .rowPadding {
 	padding-top:25px;
 	padding-bottom:25px;
+	margin-left:0;
+	margin-right:0;
 }
 
 .bannerContent2 img {
@@ -250,18 +251,34 @@ h1.banner1Title {
 }
 
 .bannerContent2 p {
-	float:left;
-	vertical-align:middle;
 	text-align:left;
 	font-size:22px;
+	line-height:33px;
 	margin-top:12px;
+	font-weight:400;
 }
 
 h1.banner2Title {
 	text-align:left;
-	font:normal 45px/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
+	font:normal 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:20px;
+}
+
+.singleColumn {
+	display:none;
+}
+
+table.homeBanner2Col2 {
+	width:100%;
+}
+
+table.homeBanner2Col2 tr td {
+	padding:20px 0;
+}
+
+table.maaKhaana {
+	margin:auto;
 }
 
 .bg1Repeat {
@@ -337,31 +354,60 @@ h1.banner2Title {
 		margin-right:0;
 	}
 	
-	.bannerContent2 {
-		top:25%;
+	.doubleColumn {
+		display:none;
 	}
 	
-	.bannerContent2 img {
-		width:100%;
-		margin-right:0;
-		margin-top:50%;
+	.singleColumn {
+		display:block;
+	}
+	
+	.bannerContent2 {
+		top:15%;
+		margin-top:0;
+	}
+	
+	.singleColumn .col-lg-6 {
+		position:relative;
+		float:left;
+		margin-bottom:10px;
+	}
+	
+	.singleColumn img {
+		position:absolute;
+		top:50%;
+		left:0;
+		margin-top:-18px;
+		height:36px;
+	}
+	
+	.singleColumn p {
+		padding-left:60px;
+		font-size:14px;
+	}
+	
+	.singleColumn .row1 {
+		width:80%;
+		margin:auto;
+	}
+
+	table.maaKhaana {
+		margin:auto;
+	}
+	
+	.maaKhaana h1.banner2Title {
+		line-height:35px;
+	}
+	
+	table.maaKhaana img {
+		position:unset;
+		height:60px;
+		top:0;
+		margin-top:0;
 	}
 	
 	.bannerContent2 .rowPadding {
 		padding:0;
-	}
-	
-	.bannerContent2 .row {
-		margin:0;
-	}
-	
-	.bannerContent2 p {
-		font-size:5vw;
-	}
-	
-	h1.banner2Title {
-		font-size:5vw;
-		line-height:6vw;
 	}
 	
 	.haath {
@@ -378,16 +424,6 @@ h1.banner2Title {
 		width:70%;
 		float:left;
 		margin:0;
-	}
-	
-	.htbannerAlt2 {
-		position:absolute;
-		margin-top:-18%;
-		top:50%;
-	}
-	
-	.htbannerAlt2 img{
-		width:100%;
 	}
 	
 	.bannerContent3 {
@@ -408,26 +444,61 @@ h1.banner2Title {
 	
 	h1.banner1Title {
 		text-align:left;
-		/*font:300 40px/40px 'Roboto', Arial, Helvetica, sans-serif;*/
 		text-shadow:none;
 		margin-top:0px;
 	}
 	
-	.htbannerAlt2 {
-		display:block;
-		width:80%;
-		top:50%;
-		left:50%;
-		margin-left:-40%;
-		margin-top:-15%;
+	.doubleColumn {
+		display:none;
 	}
 	
-	.htbannerAlt2 img{
-		width:100%;
+	.singleColumn {
+		display:block;
 	}
 	
 	.bannerContent2 {
-		display:none;
+		top:10%;
+		margin-top:0;
+	}
+	
+	.singleColumn .col-lg-6 {
+		position:relative;
+		float:left;
+		margin-bottom:10px;
+	}
+	
+	.singleColumn img {
+		position:absolute;
+		top:50%;
+		left:0;
+		margin-top:-20px;
+		height:40px;
+	}
+	
+	.singleColumn p {
+		padding-left:60px;
+		font-size:16px;
+	}
+	
+	.singleColumn .row1 {
+		width:80%;
+		margin:auto;
+		padding-bottom:0;
+	}
+
+	table.maaKhaana {
+		margin:auto;
+	}
+	
+	h1.banner2Title {
+		line-height:35px;
+	}
+	
+	table.maaKhaana img {
+		position:unset;
+		height:70px;
+		top:0;
+		margin-top:0;
 	}
 	
 	.bannerContent3 .carousel-caption {
@@ -449,32 +520,31 @@ h1.banner2Title {
 		margin-top:5%;
 	}
 	
-	
-	
-	h1.banner1Title {
-		text-align:left;
-		/*font:300 60px/60px 'Roboto', Arial, Helvetica, sans-serif;*/
-		text-shadow:none;
-	}
-
-	.htbannerAlt2 {
-		display:block;
-		width:80%;
-		top:50%;
-		left:50%;
-		margin-left:-40%;
-		margin-top:-15%;
-	}
-	
-	.htbannerAlt2 img{
-		width:100%;
-		max-width:881px;
-	}
-	
 	.bannerContent2 {
+		margin-top:-20%;
+	}
+	
+	.singleColumn {
 		display:none;
 	}
 	
+	table.homeBanner2Col2 {
+		width:100%;
+	}
+
+	table.homeBanner2Col2 tr td {
+		padding:20px 0;
+	}
+
+	table.maaKhaana {
+		margin:auto;
+	}
+	
+	h1.banner1Title {
+		text-align:left;
+		text-shadow:none;
+	}
+
 	.bannerContent3 .carousel-caption {
 		bottom:0px;
 		padding-bottom:0;
@@ -486,38 +556,6 @@ h1.banner2Title {
 	
 	.navbar-brand {
 		width:210px !important;
-	}
-}
-
-@media screen and (min-width:1200px) {
-	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-		margin:auto;
-	}
-	
-	.bannerContent2 {
-		width:80%;
-	}
-	
-	.row1, .row2 {
-		
-	}
-	
-	.htbannerAlt2 {
-		display:block;
-		width:80%;
-		top:50%;
-		left:50%;
-		margin-left:-40%;
-		margin-top:-15%;
-	}
-	
-	.htbannerAlt2 img{
-		width:100%;
-		max-width:881px;
-	}
-	
-	.bannerContent1 .col-lg-5 {
-		margin-top:3%;
 	}
 }
 
@@ -1441,7 +1479,7 @@ p.highLight {
 	}
 	
 	h1.banner2Title {
-		font:100 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
+		font:100 5vw/7vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	#becomeGociboBanner {
@@ -1738,21 +1776,8 @@ a.mailto:hover, a.mailto:focus {
 	position:unset !important;
 	padding-left:10%;
 	padding-right:10%;
-}
-
-#myCarousel3 .carousel-caption img {
-	float:left;
-}
-
-#myCarousel3 .carousel-caption p {
-	display:inline-block;
+	padding-bottom:20px;
 	text-align:left;
-	margin-top:32px;
-}
-
-#myCarousel3 .carousel-caption p span{
-	color:#ec1e24;
-	font-size:10px;
 }
 
 #myCarousel3 .glyphicon-menu-left {
@@ -1785,6 +1810,29 @@ a.mailto:hover, a.mailto:focus {
 	background:url(../images/banner-career.jpg) no-repeat center;
 }
 
+.devBar {
+	position:relative;
+	line-height:144px;
+	display:inline-block;
+	padding:20px 0;
+	margin:0;
+}
+
+.devBar img {
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top:-52px;
+}
+
+.devBar h3 {
+	font-size:14px;
+	font-weight:300;
+	padding-left:130px;
+	line-height:21px;
+	margin:0;
+}
+
 @media screen and (min-width:301px) and (max-width:479px) {
 	.caseStyle {
 		text-align:center;
@@ -1798,10 +1846,6 @@ a.mailto:hover, a.mailto:focus {
 		margin-bottom:30px;
 	}
 	
-	#careers {
-		margin-top:90px;
-	}
-	
 	.carousel-inner > .item {
 		top:0;
 	}
@@ -1809,18 +1853,6 @@ a.mailto:hover, a.mailto:focus {
 	#devCarousel .carousel {
 		top:0;
 		margin-bottom:0;
-	}
-	
-	#myCarousel3 .carousel-caption {
-		position:unset !important;
-		padding-top:0;
-		top:0;
-	}
-	
-	#myCarousel3 .carousel-caption .col-lg-3 {
-		margin-top:25px;
-		margin-bottom:25px;
-		padding:0 25%;
 	}
 }
 
@@ -1838,22 +1870,6 @@ a.mailto:hover, a.mailto:focus {
 		top:0;
 		margin-bottom:0;
 	}
-	
-	#myCarousel3 .carousel-caption {
-		position:unset !important;
-		padding-top:0;
-		top:0;
-	}
-	
-	#myCarousel3 .carousel-caption .col-lg-3 {
-		margin-top:25px;
-		margin-bottom:25px;
-		padding:0 25%;
-	}
-}
-
-@media screen and (min-width:1200px) {
-	
 }
 
 /* about us */
