@@ -1868,8 +1868,16 @@ a.mailto:hover, a.mailto:focus {
 		padding-right:15%;
 	}
 	
+	.devBar img {
+		top:52px;
+		left:50%;
+		margin-left:-52px;
+	}
+	
 	.devBar h3 {
 		font-size:14px;
+		margin-top:110px;
+		padding-left:0;
 	}
 }
 
