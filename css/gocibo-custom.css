@@ -5,7 +5,7 @@
 
 /* global */
 body {
-	font:300 14px/21px 'Roboto', sans-serif;
+	font:300 16px/24px 'Roboto', sans-serif;
 	color:#303030;
 }
 
@@ -73,11 +73,28 @@ a.snIcon:hover {
 	h2, .h2 {
 		font-size:25px !important;
 	}
+	
+	body {
+		font:300 14px/21px 'Roboto', sans-serif;
+		color:#303030;
+	}
 }
 
 @media screen and (min-width:601px) and (max-width:900px) {
 	h2, .h2 {
 		font-size:25px !important;
+	}
+	
+	body {
+		font:300 14px/21px 'Roboto', sans-serif;
+		color:#303030;
+	}
+}
+
+@media screen and (min-width:901px) and (max-width:1199px) {
+	body {
+		font:300 14px/21px 'Roboto', sans-serif;
+		color:#303030;
 	}
 }
 
@@ -1833,7 +1850,7 @@ a.mailto:hover, a.mailto:focus {
 }
 
 .devBar h3 {
-	font-size:14px;
+	font-size:16px;
 	font-weight:300;
 	padding-left:130px;
 	line-height:21px;
@@ -1844,6 +1861,15 @@ a.mailto:hover, a.mailto:focus {
 	.caseStyle {
 		text-align:center;
 		margin-bottom:30px;
+	}
+	
+	#myCarousel3 .carousel-caption {
+		padding-left:15%;
+		padding-right:15%;
+	}
+	
+	.devBar h3 {
+		font-size:14px;
 	}
 }
 
@@ -1861,6 +1887,10 @@ a.mailto:hover, a.mailto:focus {
 		top:0;
 		margin-bottom:0;
 	}
+	
+	.devBar h3 {
+		font-size:14px;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -1876,6 +1906,10 @@ a.mailto:hover, a.mailto:focus {
 	#devCarousel .carousel {
 		top:0;
 		margin-bottom:0;
+	}
+	
+	.devBar h3 {
+		font-size:14px;
 	}
 }
 
