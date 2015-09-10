@@ -161,12 +161,12 @@ a.snIcon:hover {
 	
 	.topNav .navbar-nav {
 		background-color:#303030;
-		margin-top:0px;
-		margin-bottom:0px;
+		margin-top:0;
+		margin-bottom:0;
 	}
 	
 	.navbar-right {
-		margin-top:0px !important;
+		margin-top:0 !important;
 	}
 	
 	.navbar-brand {
@@ -1429,6 +1429,10 @@ article.deliverLove .loveTiffin img {
 .steps3, .ways2, .month1 {
 	width:70%;
 	margin:auto;
+}
+
+.month1 {
+	margin-bottom: 20px;
 }
 
 p.highLight {
