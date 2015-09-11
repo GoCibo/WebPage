@@ -1380,7 +1380,7 @@ footer .row p {
 	background:url(../images/icon-call.png) no-repeat left top, url(../images/icon-whatsapp.png) no-repeat right top;
 	min-height:70px;
 	margin-top:10px;
-	margin-bottom: 5px;
+	
 }
 
 #steps .call p{
@@ -1433,7 +1433,7 @@ article.deliverLove .col-lg-4, .col-lg-7 {
 	margin: 1em 0;
 }
 
-.month1 {
+.month1, .ways2 {
 	margin-bottom: 2em;
 }
 
@@ -1441,6 +1441,7 @@ article.deliverLove .col-lg-4, .col-lg-7 {
 	width:70%;
 	margin:auto;
 }
+
 
 
 
@@ -1572,7 +1573,7 @@ p.highLight {
 	margin: 0;
 	}
 	
-	.month1 {
+	.month1, .ways2 {
 	margin-bottom: 1em;
 	}
 	
@@ -1692,7 +1693,7 @@ p.highLight {
 	margin: 0;
 	}
 	
-	.month1 {
+	.month1, .ways2 {
 	margin-bottom: 1em;
 	}
 	
@@ -1779,7 +1780,7 @@ p.highLight {
 	margin: 1em 0;
 	}
 	
-	.month1 {
+	.month1, .ways2 {
 	margin-bottom: 1em;
 	}
 }
@@ -1802,7 +1803,7 @@ p.highLight {
 	}
 	
 
-	.month1 {
+	.month1, .ways2 {
 	margin-bottom: 2em;
 	}
 	
