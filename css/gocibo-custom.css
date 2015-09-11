@@ -1433,9 +1433,13 @@ article.deliverLove .col-lg-4, .col-lg-7 {
 	margin: 1em 0;
 }
 
-.month1, .ways2 {
+.month1 {
 	margin-bottom: 2em;
 }
+
+.ways2 {
+		margin-bottom: 5px;
+	}
 
 .steps3, .ways2, .month1 {
 	width:70%;
@@ -1573,8 +1577,12 @@ p.highLight {
 	margin: 0;
 	}
 	
-	.month1, .ways2 {
+	.month1 {
 	margin-bottom: 1em;
+	}
+	
+	.ways2 {
+		margin-bottom: 5px;
 	}
 	
 	table.tap4 {
@@ -1693,8 +1701,12 @@ p.highLight {
 	margin: 0;
 	}
 	
-	.month1, .ways2 {
+	.month1 {
 	margin-bottom: 1em;
+	}
+	
+	.ways2 {
+		margin-bottom: 5px;
 	}
 	
 	table.tap4 {
@@ -1780,8 +1792,11 @@ p.highLight {
 	margin: 1em 0;
 	}
 	
-	.month1, .ways2 {
-	margin-bottom: 1em;
+	.month1 {
+		margin-bottom: 1em;
+	}
+	.ways2 {
+		margin-bottom: 5px;
 	}
 }
 
@@ -1803,9 +1818,14 @@ p.highLight {
 	}
 	
 
-	.month1, .ways2 {
-	margin-bottom: 2em;
+	.month1 {
+		margin-bottom: 2em;
 	}
+	
+	.ways2 {
+		margin-bottom: 5px;
+	}
+}
 	
 }
 
