@@ -1450,6 +1450,10 @@ p.highLight {
 	font:normal 25px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+p.highLight a {
+	color:#ffffff;
+}
+
 @media screen and (min-width:300px) and (max-width:480px) { 
 	#steps .stepNo {
 		border-radius: 40px;
