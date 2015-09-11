@@ -1246,7 +1246,7 @@ footer .row p {
 	top:50%;
 	left:50%;
 	width:1100px;
-	margin:-250px 0 0 -550px;
+	margin: 170px 0 0 -550px;
 }
 
 .chefBannerBlock {
@@ -1380,6 +1380,7 @@ footer .row p {
 	background:url(../images/icon-call.png) no-repeat left top, url(../images/icon-whatsapp.png) no-repeat right top;
 	min-height:70px;
 	margin-top:10px;
+	margin-bottom: 5px;
 }
 
 #steps .call p{
@@ -1416,6 +1417,8 @@ article.deliverLove {
 	background-color:#FCB917;
 }
 
+
+
 article.deliverLove img.loveText {
 	width:100%;
 	max-width:480px;
@@ -1426,14 +1429,20 @@ article.deliverLove .loveTiffin img {
 	max-width:73px;
 }
 
+article.deliverLove .col-lg-4, .col-lg-7 {
+	margin: 1em 0;
+}
+
+.month1 {
+	margin-bottom: 2em;
+}
+
 .steps3, .ways2, .month1 {
 	width:70%;
 	margin:auto;
 }
 
-.month1 {
-	margin-bottom: 20px;
-}
+
 
 p.highLight {
 	font:normal 25px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
@@ -1559,6 +1568,14 @@ p.highLight {
 		text-align:center;
 	}
 	
+	article.deliverLove .col-lg-4, .col-lg-7 {
+	margin: 0;
+	}
+	
+	.month1 {
+	margin-bottom: 1em;
+	}
+	
 	table.tap4 {
 		display:block;
 	}
@@ -1671,6 +1688,14 @@ p.highLight {
 		min-height:unset;
 	}
 	
+	article.deliverLove .col-lg-4, .col-lg-7 {
+	margin: 0;
+	}
+	
+	.month1 {
+	margin-bottom: 1em;
+	}
+	
 	table.tap4 {
 		display:block;
 	}
@@ -1748,6 +1773,14 @@ p.highLight {
 	
 	table.tap4 tr td {
 		padding:10px;
+	}
+	
+	article.deliverLove .col-lg-4, .col-lg-7 {
+	margin: 1em 0;
+	}
+	
+	.month1 {
+	margin-bottom: 1em;
 	}
 }
 
@@ -2139,3 +2172,4 @@ a.mailto:hover, a.mailto:focus {
 .allCaps {
 	text-transform:uppercase;
 }
+
