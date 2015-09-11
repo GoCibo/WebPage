@@ -1246,7 +1246,7 @@ footer .row p {
 	top:50%;
 	left:50%;
 	width:1100px;
-	margin: 170px 0 0 -550px;
+	margin: -250px 0 0 -550px;
 }
 
 .chefBannerBlock {
@@ -1800,6 +1800,12 @@ p.highLight {
 	.tap4Div {
 		display:block;
 	}
+	
+
+	.month1 {
+	margin-bottom: 2em;
+	}
+	
 }
 
 /* careers */
