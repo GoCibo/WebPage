@@ -1454,6 +1454,13 @@ p.highLight a {
 	color:#ffffff;
 }
 
+
+
+p.highLight2 a {
+	color:#ffffff;
+}
+
+
 @media screen and (min-width:300px) and (max-width:480px) { 
 	#steps .stepNo {
 		border-radius: 40px;
