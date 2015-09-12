@@ -269,7 +269,7 @@ h1.banner1SubTitle {
 
 .bannerContent2 .rowPadding {
 	padding-top:25px;
-	padding-bottom:15px;
+	padding-bottom:25px;
 	margin-left:0;
 	margin-right:0;
 }
@@ -303,7 +303,7 @@ table.homeBanner2Col2 {
 }
 
 table.homeBanner2Col2 tr td {
-	padding:10px 0;
+	padding:15px 0;
 }
 
 table.maaKhaana {
