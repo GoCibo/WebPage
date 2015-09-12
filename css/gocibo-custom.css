@@ -1446,6 +1446,10 @@ article.deliverLove .col-lg-4, .col-lg-7 {
 
 
 
+p.highLight2 a {
+	color:#303030;
+}
+
 p.highLight {
 	font:normal 25px/30px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -1455,10 +1459,6 @@ p.highLight a {
 }
 
 
-
-p.highLight2 a {
-	color:#303030;
-}
 
 
 @media screen and (min-width:300px) and (max-width:480px) { 
