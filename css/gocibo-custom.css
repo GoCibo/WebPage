@@ -2089,13 +2089,13 @@ a.mailto:hover, a.mailto:focus {
 #tac p.subHead {
 	text-transform:uppercase;
 	margin:20px 0 5px 0;
-	font-size:17px;
+	font-size:16px;
 	font-weight:bold;
 }
 
 #tac p, ol, li {
 	margin-bottom:6px;
-	font-size:15px;
+	font-size:14px;
 	line-height:23px;
 }
 
