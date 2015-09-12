@@ -277,14 +277,14 @@ h1.banner1Title {
 	font-size:22px;
 	line-height:33px;
 	margin-top:12px;
-	font-weight:400;
+	font-weight:300;
 }
 
 h1.banner2Title {
 	text-align:left;
 	font:normal 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
-	margin-top:20px;
+	margin-top:30px;
 }
 
 .singleColumn {
