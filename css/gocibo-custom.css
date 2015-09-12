@@ -1929,6 +1929,10 @@ a.mailto:hover, a.mailto:focus {
 		padding-right:15%;
 	}
 	
+	.devBar {
+	padding-top: 10px;
+	}
+	
 	.devBar img {
 		top:52px;
 		left:50%;
@@ -1960,6 +1964,7 @@ a.mailto:hover, a.mailto:focus {
 	.devBar h3 {
 		font-size:14px;
 	}
+		
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
