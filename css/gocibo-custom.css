@@ -2026,6 +2026,12 @@ a.mailto:hover, a.mailto:focus {
 }
 
 /* quality control */
+
+#qControlBanner .carouselBg {
+	background:url(../images/banner-quality-control.jpg) no-repeat center;
+}
+
+/*
 #qControlBanner {
 	background-color:#f6921e;
 	padding-bottom:60px;
@@ -2047,19 +2053,24 @@ a.mailto:hover, a.mailto:focus {
 	font-size:40px;
 	text-transform:uppercase;
 }
-
+*/
 #qControl {
 	background-color:#f7f6f5;
-	padding-bottom:100px;
+	padding-bottom:80px;
 	padding-top:50px;
 }
 
 #qControl h2 {
-	color:#ec1e24;
+/*	color:#ec1e24;
 	text-transform:uppercase;
 	border:none;
-	display:block;
+	display:block;*/
+	
+	color:#303030;
+	border-color:#f04322;
+	margin-bottom:50px;
 }
+
 
 #qControl p {
 	text-align:justify;
