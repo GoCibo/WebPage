@@ -1845,7 +1845,7 @@ p.highLight a {
 }*/
 
 a.mailto, .mailto a {
-	color:#f7f6f5;
+	color:#000000;
 }
 
 a.mailto:hover, a.mailto:focus {
