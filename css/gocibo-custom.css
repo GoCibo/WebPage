@@ -982,14 +982,13 @@ h2 {
 	font-size:17px;
 	text-align:center;
 	margin-top:30px;
-	
 }
 
-.dropMail a.mailto, .mailto a {
+dropMail a, .a.mailto, .mailto a {
 	color:#000000;
 }
 
-.dropMail a.mailto:hover, a.mailto:focus {
+dropMail a.mailto:hover, a.mailto:focus {
 	color:#000000 !important;
 }
 
