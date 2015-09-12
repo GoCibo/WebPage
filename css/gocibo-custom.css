@@ -2051,8 +2051,8 @@ a.mailto:hover, a.mailto:focus {
 	font-size:25px;
 }
 
-#qControl .row text-center{
-	margin-bottom: 10px;
+#qControl .row.text-center{
+	margin-top: 10px;
 }
 
 
