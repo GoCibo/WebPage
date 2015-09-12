@@ -250,6 +250,13 @@ h1.banner1Title {
 	margin-top:0px;
 }
 
+h2.banner1Title {
+	text-align:left;
+	font:100 3vw/3vw 'Roboto', Arial, Helvetica, sans-serif;
+	text-shadow:none;
+	margin-top:0px;
+}
+
 .bannerContent2 {
 	position:absolute;
 	width:80%;
@@ -301,6 +308,7 @@ table.homeBanner2Col2 tr td {
 
 table.maaKhaana {
 	margin:auto;
+	margin-top: 50px;
 }
 
 .bg1Repeat {
