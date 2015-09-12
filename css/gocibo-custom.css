@@ -467,89 +467,100 @@ table.maaKhaana {
 
 @media screen and (min-width:400px) and (max-width:767px) {
 	.bannerContent1 .col-lg-7, .bannerContent1 .col-lg-5 {
-		float:left;
-		width:50%;
+		width:100%;
 	}
 	
 	.bannerContent1 {
-		width:70%;
-		margin-left:-35%;
+		margin-top:-40%;
 	}
 	
 	h1.banner1Title {
-		text-align:left;
-		text-shadow:none;
-		margin-top:0px;
+		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
+	}
+	h1.banner1SubTitle {
+		font:100 5vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
-	h1.banner1SubTitle {
-		text-align:left;
-		text-shadow:none;
-		margin-top:0px;
+	.bannerContent1 .row {
+		margin-left:0;
+		margin-right:0;
 	}
 	
 	.doubleColumn {
-		display:block;
-	}
-	
-	.singleColumn {
 		display:none;
 	}
 	
+	.singleColumn {
+		display:block;
+	}
+	
 	.bannerContent2 {
-		top:10%;
+		top:15%;
 		margin-top:0;
 	}
 	
-	.bannerContent2 p {
-		font-size:12px;
-		line-height:18px;
+	.singleColumn .col-lg-6 {
+		position:relative;
+		float:left;
+		margin-bottom:10px;
 	}
 	
-	.bannerContent2 img {
-		height:40px;
+	.singleColumn img {
+		position:absolute;
+		top:50%;
+		left:0;
+		margin-top:-18px;
+		height:36px;
 	}
 	
-	table.homeBanner2Col2 {
-		width:100%;
+	.singleColumn p {
+		padding-left:60px;
+		font-size:14px;
+		line-height:21px;
 	}
-
-	table.homeBanner2Col2 tr td {
-		padding:15px 0;
+	
+	.singleColumn .row1 {
+		width:80%;
+		margin:auto;
 	}
 
 	table.maaKhaana {
 		margin:auto;
 	}
 	
-	h1.banner1Title {
-		text-align:left;
-		text-shadow:none;
-	}
-	h1.banner1SubTitle {
-		text-align:left;
-		text-shadow:none;
-	}
-
-
-	table.maaKhaana {
-		margin:auto;
-	}
-	
-	h1.banner2Title {
+	.maaKhaana h1.banner2Title {
 		line-height:35px;
 	}
 	
 	table.maaKhaana img {
 		position:unset;
-		height:70px;
+		height:60px;
 		top:0;
 		margin-top:0;
 	}
 	
-	.bannerContent3 .carousel-caption {
-		bottom:0px;
-		padding-bottom:0;
+	.bannerContent2 .rowPadding {
+		padding:0;
+	}
+	
+	.haath {
+		padding:0 15px 0 15px !important;
+	}
+	
+	.bannerContent2 .col-lg-3 {
+		width:30%;
+		float:left;
+		margin:0;
+	}
+	
+	.bannerContent2 .col-lg-9 {
+		width:70%;
+		float:left;
+		margin:0;
+	}
+	
+	.bannerContent3 {
+		margin-top:-25%;
 	}
 }
 
@@ -1006,7 +1017,6 @@ h2 {
 
 .dropMail {
 	color:#303030 !important;
-	font-size:17px;
 	text-align:center;
 	margin-top:30px;
 }
@@ -1014,6 +1024,7 @@ h2 {
 @media screen and (min-width:301px) and (max-width:600px) {
 	.dropMail {
 		margin-top:30px;
+		text-align:center;
 	}
 	
 	#contactUs img {
