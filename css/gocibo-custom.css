@@ -250,7 +250,7 @@ h1.banner1Title {
 	margin-top:0px;
 }
 
-h2.banner1Title {
+h1.banner1SubTitle {
 	text-align:left;
 	font:100 3vw/3vw 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
@@ -308,7 +308,7 @@ table.homeBanner2Col2 tr td {
 
 table.maaKhaana {
 	margin:auto;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .bg1Repeat {
@@ -377,6 +377,9 @@ table.maaKhaana {
 	
 	h1.banner1Title {
 		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
+	}
+	h1.banner1SubTitle {
+		font:100 5vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	.bannerContent1 .row {
@@ -479,6 +482,12 @@ table.maaKhaana {
 		margin-top:0px;
 	}
 	
+	h1.banner1SubTitle {
+		text-align:left;
+		text-shadow:none;
+		margin-top:0px;
+	}
+	
 	.doubleColumn {
 		display:block;
 	}
@@ -517,6 +526,11 @@ table.maaKhaana {
 		text-align:left;
 		text-shadow:none;
 	}
+	h1.banner1SubTitle {
+		text-align:left;
+		text-shadow:none;
+	}
+
 
 	table.maaKhaana {
 		margin:auto;
@@ -573,6 +587,11 @@ table.maaKhaana {
 	}
 	
 	h1.banner1Title {
+		text-align:left;
+		text-shadow:none;
+	}
+	
+		h1.banner1SubTitle {
 		text-align:left;
 		text-shadow:none;
 	}
