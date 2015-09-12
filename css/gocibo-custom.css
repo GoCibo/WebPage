@@ -2048,7 +2048,11 @@ a.mailto:hover, a.mailto:focus {
 	border:none;
 	display:block;
 	font-weight:100;
-	font-size:30px;
+	font-size:25px;
+}
+
+#qControl .row{
+	margin-bottom: 10px;
 }
 
 
