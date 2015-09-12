@@ -984,12 +984,6 @@ h2 {
 	margin-top:30px;
 }
 
-dropMail a{
-	color:#000000;
-}
-
-
-
 @media screen and (min-width:301px) and (max-width:600px) {
 	.dropMail {
 		margin-top:30px;
