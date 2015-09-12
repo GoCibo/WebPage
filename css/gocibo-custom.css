@@ -1845,11 +1845,11 @@ p.highLight a {
 }*/
 
 a.mailto, .mailto a {
-	color:#000000;
+	color:#303030;
 }
 
 a.mailto:hover, a.mailto:focus {
-	color:#000000 !important;
+	color:#303030 !important;
 }
 
 #myCarousel3 {
