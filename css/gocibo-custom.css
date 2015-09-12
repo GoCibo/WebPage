@@ -979,9 +979,9 @@ h2 {
 
 .dropMail {
 	color:#303030 !important;
-	font-size:14px;
+	font-size:17px;
 	text-align:center;
-	margin-top:80px;
+	margin-top:30px;
 }
 
 @media screen and (min-width:301px) and (max-width:600px) {
