@@ -2061,14 +2061,16 @@ a.mailto:hover, a.mailto:focus {
 }
 
 #qControl h2 {
-/*	color:#ec1e24;
-	text-transform:uppercase;
-	border:none;
-	display:block;*/
-	
 	color:#303030;
 	border-color:#f04322;
 	margin-bottom:50px;
+}
+
+#qControl h1 {
+	color:#ec1e24;
+	text-transform:uppercase;
+	border:none;
+	display:block;
 }
 
 
