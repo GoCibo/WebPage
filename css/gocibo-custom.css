@@ -1849,7 +1849,12 @@ a.mailto, .mailto a {
 }
 
 a.mailto:hover, a.mailto:focus {
-	color:#ffffff !important;
+	color:#000000 !important;
+}
+
+#myCarousel3 {
+	background-color:#808080;
+	color:#ffffff;
 }
 
 #myCarousel3 .carousel-caption {
