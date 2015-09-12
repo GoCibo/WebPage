@@ -2031,29 +2031,6 @@ a.mailto:hover, a.mailto:focus {
 	background:url(../images/banner-quality-control.jpg) no-repeat center;
 }
 
-/*
-#qControlBanner {
-	background-color:#f6921e;
-	padding-bottom:60px;
-	padding-top:150px;
-}
-
-#qControlBanner p {
-	color:#ffffff;
-}
-
-#qControlBanner h1 {
-	border-radius:10px;
-	text-align:center;
-	padding:8px 20px;
-	display:inline-block;
-	background-color:#fdba14;
-	font-weight:100;
-	margin-bottom:30px;
-	font-size:40px;
-	text-transform:uppercase;
-}
-*/
 #qControl {
 	background-color:#f7f6f5;
 	padding-bottom:80px;
@@ -2065,11 +2042,13 @@ a.mailto:hover, a.mailto:focus {
 	margin-bottom:50px;
 }
 
-#qControl h1 {
+#qControl h1{
 	color:#ec1e24;
 	text-transform:uppercase;
 	border:none;
 	display:block;
+	font-weight:100;
+	font-size:30px;
 }
 
 
