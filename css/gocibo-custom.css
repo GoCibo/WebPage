@@ -1074,6 +1074,11 @@ h2 {
 }
 
 /* testimonials */
+#myCarousel2 {
+	background:url(../images/banner-testi-1.jpg) no-repeat center;
+	text-align:center;
+}
+
 #testimonials .bannerTitle {
 	text-align:left;
 	font-weight:300;
@@ -1093,7 +1098,7 @@ h2 {
 		margin-bottom:-80px;
 }
 
-.testi1 {
+/*.testi1 {
 	background:url(../images/banner-testi-1.jpg) no-repeat center;
 	text-align:center;
 }
@@ -1101,6 +1106,7 @@ h2 {
 .testi1 img {
 	text-align:center;
 }
+*/
 
 @media screen and (min-width:300px) and (max-width:497px) {
 	#testimonials .bannerTitle {
