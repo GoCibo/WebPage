@@ -257,6 +257,22 @@ h1.banner1SubTitle {
 	margin-top:0px;
 }
 
+.bg1Repeat {
+	background:#eb2427 url(../images/banner-bg-repeat.png) left top;
+	position:relative;
+}
+
+.bg1Repeat .carousel-caption{
+	padding:0;
+}
+
+h1.banner2Title {
+	text-align:left;
+	font:normal 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
+	text-shadow:none;
+	margin-top:30px;
+}
+
 /*
 .bannerContent2 {
 	position:absolute;
@@ -288,13 +304,6 @@ h1.banner1SubTitle {
 	font-weight:100;
 }
 
-h1.banner2Title {
-	text-align:left;
-	font:normal 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
-	text-shadow:none;
-	margin-top:30px;
-}
-
 
 .singleColumn {
 	display:none;
@@ -313,14 +322,6 @@ table.maaKhaana {
 	margin-top: 30px;
 }
 
-.bg1Repeat {
-	background:#eb2427 url(../images/banner-bg-repeat.png) left top;
-	position:relative;
-}
-
-.bg1Repeat .carousel-caption{
-	padding:0;
-}
 
 .bg2Repeat {
 	background:#525252 url(../images/banner-bg-repeat.png) left top;
