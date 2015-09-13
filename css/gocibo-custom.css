@@ -2194,9 +2194,8 @@ a.mailto:hover, a.mailto:focus {
 
 .btn-danger {
 	background-color:#ec1e24;
-	font-weight:300;
-    font-size:20px;
 }
+
 
 .btn-gray {
   color: #ffffff;
@@ -2233,8 +2232,11 @@ a.mailto:hover, a.mailto:focus {
 	}
 	
 	.btn-danger  {
-		font-size: 17px;
+		font-size: 20px;
 	}
+
+
+	
 }
 
 @media (min-width:901px) and (max-width:1200px) {
