@@ -1656,7 +1656,7 @@ p.highLight a {
 	}
 	
 	#becomeGociboBanner {
-	margin-top: 20px;
+	margin-top: 40px;
 	}
 	
 	.becomeBannerContent .rowPadding {
@@ -1679,6 +1679,10 @@ p.highLight a {
 	.chefTblCol2 p {
 		margin-left:15px;
 		font-size:14px;
+	}
+	
+	.chefTblCol2 tr td {
+		padding:15px 0;
 	}
 	
 	p.highLight {
