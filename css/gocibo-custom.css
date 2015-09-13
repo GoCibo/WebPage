@@ -377,7 +377,7 @@ table.maaKhaana {
 	}
 	
 	.bannerContent1 {
-		margin-top:-40%;
+		margin-top:-30%;
 	}
 	
 	h1.banner1Title {
@@ -400,6 +400,11 @@ table.maaKhaana {
 	.singleColumn {
 		display:block;
 	}
+	
+	p.btnBecome {
+		font-size: 90%;
+	}
+	
 	
 /*
 	.bannerContent2 {
@@ -472,7 +477,7 @@ table.maaKhaana {
 		margin-top: -30%;
 	}
 	
-
+	
 
 
 
@@ -2220,6 +2225,10 @@ a.mailto:hover, a.mailto:focus {
 	  line-height: 1.3333333;
 	  border-radius: 6px;
 	  width:100%;
+	}
+	
+	.btn-danger  {
+		
 	}
 }
 
