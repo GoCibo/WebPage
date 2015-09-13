@@ -75,7 +75,7 @@ a.snIcon:hover {
 	}
 	
 	body {
-		font:300 14px/21px 'Roboto', sans-serif;
+		font:300 15px/23px 'Roboto', sans-serif;
 		color:#303030;
 	}
 }
@@ -86,14 +86,14 @@ a.snIcon:hover {
 	}
 	
 	body {
-		font:300 14px/21px 'Roboto', sans-serif;
+		font:300 15px/23px 'Roboto', sans-serif;
 		color:#303030;
 	}
 }
 
 @media screen and (min-width:901px) and (max-width:1199px) {
 	body {
-		font:300 14px/21px 'Roboto', sans-serif;
+		font:300 15px/23px 'Roboto', sans-serif;
 		color:#303030;
 	}
 }
@@ -186,7 +186,7 @@ a.snIcon:hover {
 	.navbar-default .topNav .navbar-nav > li > a:focus {
 	  color: #ffffff;
 	  background-color: #303030;
-	  font-size:13px;
+	  font-size:14px;
 	}
 	
 	.navbar-default {
@@ -211,7 +211,7 @@ a.snIcon:hover {
 	
 	.navbar-default .navbar-nav > li > a {
 		border-bottom:2px solid #303030;
-	  font-size:13px;
+	  font-size:14px;
 	}
 }
 
@@ -252,7 +252,7 @@ h1.banner1Title {
 
 h1.banner1SubTitle {
 	text-align:left;
-	font:100 2vw/2vw 'Roboto', Arial, Helvetica, sans-serif;
+	font:normal 2vw/2vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	text-shadow:none;
 	margin-top:0px;
 }
@@ -379,7 +379,8 @@ table.maaKhaana {
 		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	h1.banner1SubTitle {
-		font:100 5vw "Roboto",Arial,Helvetica,sans-serif;
+		font:normal 5vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
+		
 	}
 	
 	.bannerContent1 .row {
@@ -416,8 +417,8 @@ table.maaKhaana {
 	
 	.singleColumn p {
 		padding-left:60px;
-		font-size:14px;
-		line-height:21px;
+		font-size:15px;
+		line-height:23px;
 	}
 	
 	.singleColumn .row1 {
@@ -478,7 +479,7 @@ table.maaKhaana {
 		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	h1.banner1SubTitle {
-		font:100 5vw "Roboto",Arial,Helvetica,sans-serif;
+		font:normal 5vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
 	
 	.bannerContent1 .row {
@@ -515,8 +516,8 @@ table.maaKhaana {
 	
 	.singleColumn p {
 		padding-left:60px;
-		font-size:14px;
-		line-height:21px;
+		font-size:15px;
+		line-height:23px;
 	}
 	
 	.singleColumn .row1 {
@@ -1091,7 +1092,7 @@ h2 {
 	}
 
 	#testimonials p {
-		font-size:14px;
+		font-size:15px;
 	}
 	
 	#testimonials .carousel {
@@ -1105,7 +1106,7 @@ h2 {
 	}
 
 	#testimonials p {
-		font-size:14px;
+		font-size:15px;
 	}
 	
 	#testimonials .carousel {
@@ -1246,7 +1247,7 @@ footer .row p {
 
 @media screen and (min-width:768px) and (max-width:1199px) {
 	footer .navbar-default .navbar-nav > li > a {
-		font-size:13px;
+		font-size:14px;
 	}
 	
 	.socialIcons {
@@ -1331,7 +1332,7 @@ footer .row p {
 	font-size:16px;
 	margin-top:12px;
 	text-shadow:none;
-	font-weight:400;
+	font-weight:300;
 }
 
 #steps {
