@@ -469,10 +469,10 @@ table.maaKhaana {
 
 */	
 	.bannerContent3 {
-		margin-top: -10%;
+		margin-top: -30%;
 	}
 	
-	.btnBecome {
+	btnBecome.btnResize {
 		font-size: 80%;
 		
 	}
