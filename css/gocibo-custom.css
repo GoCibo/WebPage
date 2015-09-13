@@ -472,10 +472,9 @@ table.maaKhaana {
 		margin-top: -30%;
 	}
 	
-	.carousel-caption .btnResize {
-		font-size:90%;
-	}
-	
+
+
+
 
 
 }
@@ -579,10 +578,7 @@ table.maaKhaana {
 	.bannerContent3 {
 		margin-top:-25%;
 	}
-	
-		.carousel-caption .btnResize {
-		font-size:90%;
-	}
+
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -635,10 +631,7 @@ table.maaKhaana {
 		padding-bottom:0;
 	}
 	
-		.carousel-caption .btnResize {
-		font-size:90%;
-	}
-	
+
 	nav .container {
 		width:100%;
 	}
