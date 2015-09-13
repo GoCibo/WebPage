@@ -471,11 +471,6 @@ table.maaKhaana {
 	.bannerContent3 {
 		margin-top: -30%;
 	}
-	
-	
-	btnBecome .btn-danger {
-		font-size: 17px;
-	}
 
 
 
@@ -2225,7 +2220,7 @@ a.mailto:hover, a.mailto:focus {
 	}
 	
 	.btn-danger  {
-		
+		font-size: 17px;
 	}
 }
 
