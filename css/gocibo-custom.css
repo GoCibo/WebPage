@@ -377,7 +377,7 @@ table.maaKhaana {
 	}
 	
 	.bannerContent1 {
-		margin-top:-30%;
+		margin-top:-50%;
 	}
 	
 	h1.banner1Title {
@@ -402,7 +402,7 @@ table.maaKhaana {
 	}
 	
 	p.btnBecome {
-		font-size: 90%;
+		font:300 14px "Roboto",Arial,Helvetica,sans-serif;
 	}
 	
 	
