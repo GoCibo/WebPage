@@ -882,18 +882,11 @@ h2 {
 	}
 	
 	.deliverLove .col-lg-4 {
-		width:40%;
-		float:left;
+		margin-top:20px;
+		text-align:center;
 	}
 	
-	.deliverLove .col-lg-7 {
-		width:50%;
-		float:left;
-	}
-	
-	.deliverLove .col-lg-1{
-		width:10%;
-		float:left;
+	.deliverLove .col-lg-8 {
 	}
 	
 	.deliverLove .col-lg-8 p {
