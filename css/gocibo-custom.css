@@ -1528,6 +1528,10 @@ p.highLight a {
 		display:block;
 	}
 	
+	#becomeGociboBanner {
+	padding-top: 10px;
+}
+
 	.becomeBannerContent .rowPadding {
 		padding-bottom: 0;
 		padding-top: 5px;
@@ -1651,6 +1655,10 @@ p.highLight a {
 		top:5%;
 	}
 	
+	#becomeGociboBanner {
+	padding-top: 10px;
+	}
+	
 	.becomeBannerContent .rowPadding {
 		padding-top:0;
 		padding-bottom:0;
@@ -1767,6 +1775,10 @@ p.highLight a {
 		margin:0 0 0 -40%;
 		top:5%;
 	}
+	
+		#becomeGociboBanner {
+	padding-top: 10px;
+}
 	
 	.chefTblCol2, .chefTblCol3{
 		display:none;
