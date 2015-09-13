@@ -257,6 +257,7 @@ h1.banner1SubTitle {
 	margin-top:0px;
 }
 
+/*
 .bannerContent2 {
 	position:absolute;
 	width:80%;
@@ -294,6 +295,7 @@ h1.banner2Title {
 	margin-top:30px;
 }
 
+
 .singleColumn {
 	display:none;
 }
@@ -324,6 +326,8 @@ table.maaKhaana {
 	background:#525252 url(../images/banner-bg-repeat.png) left top;
 	position:relative;
 }
+
+*/
 
 .bannerContent3 {
 	position:absolute;
@@ -380,7 +384,7 @@ table.maaKhaana {
 	}
 	h1.banner1SubTitle {
 		font:normal 5vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
-		font
+		
 	}
 	
 	.bannerContent1 .row {
@@ -396,6 +400,7 @@ table.maaKhaana {
 		display:block;
 	}
 	
+/*
 	.bannerContent2 {
 		top:15%;
 		margin-top:0;
@@ -460,7 +465,8 @@ table.maaKhaana {
 		float:left;
 		margin:0;
 	}
-	
+
+*/	
 	.bannerContent3 {
 		margin-top:-25%;
 	}
@@ -494,7 +500,8 @@ table.maaKhaana {
 	.singleColumn {
 		display:block;
 	}
-	
+
+/*	
 	.bannerContent2 {
 		top:15%;
 		margin-top:0;
@@ -559,7 +566,8 @@ table.maaKhaana {
 		float:left;
 		margin:0;
 	}
-	
+
+*/	
 	.bannerContent3 {
 		margin-top:-25%;
 	}
@@ -578,6 +586,17 @@ table.maaKhaana {
 		margin-top:5%;
 	}
 	
+	h1.banner1Title {
+		text-align:left;
+		text-shadow:none;
+	}
+	
+	h1.banner1SubTitle {
+		text-align:left;
+		text-shadow:none;
+	}
+
+/*	
 	.bannerContent2 {
 		margin-top:-20%;
 	}
@@ -598,16 +617,7 @@ table.maaKhaana {
 		margin:auto;
 	}
 	
-	h1.banner1Title {
-		text-align:left;
-		text-shadow:none;
-	}
-	
-		h1.banner1SubTitle {
-		text-align:left;
-		text-shadow:none;
-	}
-
+*/
 	.bannerContent3 .carousel-caption {
 		bottom:0px;
 		padding-bottom:0;
