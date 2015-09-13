@@ -472,7 +472,7 @@ table.maaKhaana {
 		margin-top: -30%;
 	}
 	
-	btnBecome.btnResize {
+	.btnBecome .btnResize {
 		font-size: 80%;
 		
 	}
