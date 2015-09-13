@@ -401,11 +401,6 @@ table.maaKhaana {
 		display:block;
 	}
 	
-	.btn-danger {
-		font-size: 17px;
-	}
-	
-	
 /*
 	.bannerContent2 {
 		top:15%;
@@ -478,7 +473,9 @@ table.maaKhaana {
 	}
 	
 	
-
+	.btn-danger {
+		font-size: 17px;
+	}
 
 
 
