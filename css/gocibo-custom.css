@@ -473,10 +473,11 @@ table.maaKhaana {
 	}
 	
 	.btnBecome .btnResize {
-		font-size: 40%;
+		font-size: 90%;
 		
 	}
 	
+
 }
 
 @media screen and (min-width:400px) and (max-width:767px) {
@@ -2182,6 +2183,8 @@ a.mailto:hover, a.mailto:focus {
 
 .btn-danger {
 	background-color:#ec1e24;
+	font-weight:300;
+    font-size:20px;
 }
 
 .btn-gray {
