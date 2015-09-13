@@ -401,8 +401,8 @@ table.maaKhaana {
 		display:block;
 	}
 	
-	p.btnBecome {
-		font:300 14px "Roboto",Arial,Helvetica,sans-serif;
+	.btn-danger {
+		font-size: 17px;
 	}
 	
 	
