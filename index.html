@@ -33,15 +33,18 @@
 		ga('create', 'UA-67491313-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-	
+
 
 </head>
 
-<body data-spy="scroll">
+<body data-spy="scroll" target="#navbar" data-offset="120">
 <div id="home"></div>
-<!-- navigation 
+<!-- navigation
 ================================= -->
 	<nav class="navbar navbar-default navbar-fixed-top navPosition">
+		<div id="contactResponse">
+			<p>Thanks for contacting us. We'll get back to you!
+		</div>
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -64,11 +67,11 @@
 			</div>
 		</div><!-- end container -->
 	</nav> <!-- end of navigation -->
-	
-<!-- carousel 
+
+<!-- carousel
 ==================================== -->
-	
-		
+
+
 		<header id="myCarousel" class="carousel slide">
 			<!-- Indicators -->
 			<!--<ol class="carousel-indicators">
@@ -82,7 +85,7 @@
 					<div class="carousel-caption bannerContent1">
 						<div class="row">
 							<div class="col-lg-7">
-								<img src="images/banner-mobiles.png" alt="GoCibo Android App on Google Play Store">
+								<img src="images/banner-mobiles1.png" alt="GoCibo Android App on Google Play Store">
 							</div>
 							<div class="col-lg-5">
 								<h1 class="banner1Title">Homemade<br />Food.<br />Delivered.</h1>
@@ -113,7 +116,7 @@
 										<td><p>Last minute guests at home?</p></td>
 									</tr>
 								</table>
-								
+
 								<div class="missingMaa">
 									<table class="maaKhaana">
 										<tr>
@@ -124,7 +127,7 @@
 									</table>
 								</div>
 							</div>
-							
+
 							<div class="singleColumn">
 								<div class="row rowPadding row1">
 									<div class="col-lg-6">
@@ -177,9 +180,9 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</header> <!-- end of carousel -->
-		
-	
-<!-- How it works 
+
+
+<!-- How it works
 =========================================== -->
 	<div id="howItWorks">
 		<div class="container">
@@ -205,8 +208,8 @@
 			</div>
 		</div>
 	</div>
-	
-<!-- Delivery slots 
+
+<!-- Delivery slots
 ============================================== -->
 	<div id="deliverySlots">
 		<div class="container">
@@ -231,21 +234,21 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="deliverLove">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8">
-					<p>GoCibo takes great pride in announcing its unique delivery service "DELIVER LOVE". We promptly get the lunch box you prepare to your spouse's office desk! All this, while we pick your GoCibo order. So, while you are busy cooking for GoCibo customers, GoCibo will ensure your family doesn't stay hungry!</p>
-				</div>
 				<div class="col-lg-4">
 					<img src="images/icon-we-deliver-love-home.png" alt="Deliver Lunch box and Love to spouse">
+				</div>
+				<div class="col-lg-8">
+					<p>GoCibo takes great pride in announcing its unique delivery service "DELIVER LOVE". We promptly get the lunch box you prepare to your spouse's office desk! All this, while we pick your GoCibo order. So, while you are busy cooking for GoCibo customers, GoCibo will ensure your family doesn't stay hungry!</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-<!-- Chefs 
+
+<!-- Chefs
 ================================================ -->
 	<div id="ourChefs">
 		<div class="container">
@@ -253,18 +256,18 @@
 				<h2>Chefs</h2>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 homeChefIcon">
-					<img src="images/chefs.png" alt="Homemade Chefs who cook tasty, yummy, healthy food at home">
-				</div>
-				<div class="col-lg-9 homeChefContent">
-					<p>Our chefs are 'common people' like you and me, like your mom or wife. 'Common people' and not 'professionals' because homemade taste and homemade love can only be found at home. However, we surely have culinary trained professionals to perform a thorough quality check and certify the chefs before getting them on board. Our home chefs cook every bit of that bite you order, completely at home and prepare it with utmost simplicity, quality and homely feel. That's what makes us what we are!</p>
+				<div class="col-lg-10 homeChefContent">
+					<p>Our chefs are 'common people' like you and me, like your mom or wife. 'Common people' and not 'professionals' because homemade taste and homemade love can only be found at home. However, we surely have culinary trained professionals to perform a thorough quality check and certify the chefs before getting them on board. Our home chefs cook every bit of that bite you order, completely at home and prepare it with utmost simplicity, quality and homely feel. That's what makes us who we are!</p>
 					<a href="become-a-gocibo-chef.html" class="btn btn-lg btn-gray mt30 btnResize" role="button">Become a GoCibo Chef</a>
+				</div>
+				<div class="col-lg-2 homeChefIcon">
+					<img src="images/chefs.png" alt="Homemade Chefs who cook tasty, yummy, healthy food at home">
 				</div>
 			</div>
 		</div>
 	</div>
-	
-<!-- Contact us 
+
+<!-- Contact us
 ================================================= -->
 	<div id="contactUs">
 		<div class="container">
@@ -276,19 +279,27 @@
 					<img src="images/burrp.png" alt="Great Homemade Food. Very tasty burrrp.">
 				</div>
 				<div class="col-lg-6 shareUs">
-					<p>Good food deserves good sharing!<br />Share with us your feedback on our food and service.</p>
-					<input type="text" class="inpStyle1" placeholder="Enter your email address" />
-					<textarea class="feedback" placeholder="Enter your feedback"></textarea>
-					<p><a href="#" class="btn btn-danger">Submit</a></p>
+					<!-- <p>Good food deserves good sharing!<br />Share with us your feedback on our food and service.</p> -->
+					<form method="POST" action="https://formaholic.com/f/e80776b3293b1a2f">
+						<p>
+							<input type="text" class="inpStyle1" name="email" placeholder="Enter your email address" required="requires" data-validation="email" data-validation-error-msg="Please provide a valid email address"/>
+						</p>
+						<p>
+							<textarea class="feedback" placeholder="Enter your message" name="message" required="required" data-validation="length" data-validation-length="min30" data-validation-error-msg="Too few characters, please provide more info"></textarea>
+						</p>
+						<p>
+							<input class="btn btn-danger" type="submit"></input>
+						</p>
+					</form>
 				</div>
 			</div>
 			<div class="row">
-				<p class="dropMail">Drop us a mouth-watering mail at <a href="mailto:support@gocibo.in" class="mailto"><strong>support@gocibo.in</strong></a><br />Call us for more yummy food at <strong>709 350 2426</strong></p>
+				<p class="dropMail">Call us for more yummy food at <strong>709 350 2426</strong></p>
 			</div>
 		</div>
 	</div>
-	
-<!-- Testimonials 
+
+<!-- Testimonials
 =============================================== -->
 	<div id="testimonials">
 		<div id="myCarousel2" class="carousel slide" data-ride="carousel">
@@ -298,7 +309,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h3 class="bannerTitle">"Awesome platform to showcase my cooking skills. Already downloaded the Chef's App and it is so easy to use."</h3>
-							<p>Rukhayya, Hafeezpet</p>
+							<p>- Rukhayya, Hafeezpet</p>
 						</div>
 					</div>
 				</div>
@@ -307,7 +318,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h3 class="bannerTitle">"I never would have to order again from the office cafeteria. This is great. Exactly what I wanted."</h3>
-							<p>Krishnakanth, Miyapur</p>
+							<p>- Krishnakanth, Miyapur</p>
 						</div>
 					</div>
 				</div>
@@ -316,7 +327,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h3 class="bannerTitle">"Homemade Food tops any given day!!!"</h3>
-							<p>Raj Kumar Singh, Kondapur</p>
+							<p>- Raj Kumar Singh, Kondapur</p>
 						</div>
 					</div>
 				</div>
@@ -331,8 +342,8 @@
 			</a>
 		</div> <!-- end of carousel -->
 	</div>
-	
-<!-- Footer 
+
+<!-- Footer
 ============================================= -->
 	<footer>
 		<div class="footNavContainer">
@@ -373,21 +384,23 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<!-- bootstrap core javascript plugins -->
 	<!-- jQuery -->
-    <script src="js/jquery.js"></script>
 	<script src="js/jquery-1.11.3.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/jquery.easing.js"></script>
 	<script src="js/gocibo-custom.js"></script>
-	
+	<script src="js/jquery.form-validator.min.js"></script>
+
 	<!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
-    })
+    });
+
+    $.validate();
     </script>
-	
+
 	</body>
 </html>

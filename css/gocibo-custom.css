@@ -18,7 +18,11 @@ body {
 	height:37px;
 	display:inline-block;
 	float:right;
-	margin-left:15px
+	margin-left:15px;
+}
+
+.bold {
+	font-weight: 700;
 }
 
 a.snIcon:hover {
@@ -58,22 +62,22 @@ a.snIcon:hover {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color:#ffffff;
+	background-color:#cccccc;
 }
 
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
 	border:none;
-}
+}*/
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+/*.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background:none;
-}
+}*/
 
 @media screen and (min-width:301px) and (max-width:600px) {
 	h2, .h2 {
 		font-size:25px !important;
 	}
-	
+
 	body {
 		font:300 15px/23px 'Roboto', sans-serif;
 		color:#303030;
@@ -84,7 +88,7 @@ a.snIcon:hover {
 	h2, .h2 {
 		font-size:25px !important;
 	}
-	
+
 	body {
 		font:300 15px/23px 'Roboto', sans-serif;
 		color:#303030;
@@ -106,14 +110,19 @@ a.snIcon:hover {
   padding-bottom:0px !important;
 }
 
-.navbar-default {
+/*.navbar-default {
 	background:none !important;
 	box-shadow:none !important;
-}
+}*/
 
 .navbar-fixed-top {
-	border:none !important;
-	background:url(../images/transBg.png) repeat left top !important;
+	/*border:none !important;*/
+	/*background:url(../images/transBg.png) repeat left top !important;*/
+
+	background-color: #fcfcfc;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
 }
 
 .navbar-default .navbar-nav > li {
@@ -121,25 +130,24 @@ a.snIcon:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color:#ffffff;
+	color:#303030;
 	text-transform:uppercase;
 	font:400 15px 'Roboto Condensed', Arial, Helvetica, sans-serif;
 	padding:0;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: transparent;
-  border-bottom:2px solid #ffffff;
+.navbar-default .navbar-nav > li > a:hover {
+  color: #666;
+  border-bottom: 2px solid #666;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background:none;
-	color:#ffffff;
+	color:#303030;
 	text-decoration:none;
+	border-bottom: 2px solid #303030;
 }
 
 .navbar-right {
@@ -154,74 +162,93 @@ a.snIcon:hover {
 	background-color:#303030 !important;
 }
 
-@media screen and (min-width:301px) and (max-width:767px) {
-	.navbar-default .navbar-nav > li > a {
-		display:inline;
-	}
-	
-	.topNav .navbar-nav {
-		background-color:#303030;
-		margin-top:0;
-		margin-bottom:0;
-	}
-	
-	.navbar-right {
-		margin-top:0 !important;
-	}
-	
-	.navbar-brand {
-		background:transparent url(../images/logo-gocibo.png) no-repeat 15px 10px !important;
-		height:90px !important;
-	}
-	
-	.navbar {
-		margin-bottom:0px;
-	}
-	
-	#becomeGociboBanner .carousel {
-		padding-top:110px;
-	}
-	
-	.navbar-default .topNav .navbar-nav > li > a:hover,
-	.navbar-default .topNav .navbar-nav > li > a:focus {
-	  color: #ffffff;
-	  background-color: #303030;
-	  font-size:14px;
-	}
-	
-	.navbar-default {
-		
-	}
-	
-	.navbar-toggle {
-		margin-top:25px;
-	}
-	
-	.navbar-header {
-		background:url(../images/transBg.png) repeat left top;
-	}
-	
-	.navbar-header-alt {
-		background-color:#303030;
-	}
-	
-	.navbar-default .navbar-nav > li  {
-		padding:7px 15px;
-	}
-	
-	.navbar-default .navbar-nav > li > a {
-		border-bottom:2px solid #303030;
-	  font-size:14px;
-	}
+/* carousel */
+#myCarousel {
+	margin-top: 100px;
+	height: calc(100% - 100px);
 }
 
-/* carousel */
 .carousel-control.right, .carousel-control.left {
 	background:none !important;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	margin:auto;
+}
+
+@media screen and (min-width:301px) and (max-width:767px) {
+	.navbar-default .navbar-nav > li > a {
+		display:inline;
+	}
+
+	.topNav .navbar-nav {
+		background-color:#ffffff;
+		margin-top:0;
+		margin-bottom:0;
+	}
+
+	.navbar-right {
+		margin-top:0 !important;
+	}
+
+	.navbar-brand {
+		background:transparent url(../images/logo-gocibo.png) no-repeat 15px 10px !important;
+		height:90px !important;
+	}
+
+	.navbar {
+		margin-bottom:0px;
+	}
+
+	#becomeGociboBanner .carousel {
+		padding-top:110px;
+	}
+
+	.navbar-default .topNav .navbar-nav > li > a:hover,
+	.navbar-default .topNav .navbar-nav > li > a:focus {
+	  /*color: #ffffff;*/
+	  /*background-color: #303030;*/
+	  font-size:14px;
+	}
+
+	.navbar-default {
+
+	}
+
+	.navbar-toggle {
+		margin-top:25px;
+	}
+
+	.navbar-header {
+		/*background:url(../images/transBg.png) repeat left top;*/
+	}
+
+	.navbar-header-alt {
+		background-color:#303030;
+	}
+
+	.navbar-default .navbar-nav > li  {
+		padding:7px 15px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		/*border-bottom:2px solid #303030;*/
+	  	font-size:14px;
+	}
+
+	#myCarousel {
+		margin-top: 90px;
+		height: calc(100% - 90px);
+	}
+}
+
+#contactResponse {
+	background-color: #00C853;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+	height: 46px;
+	display: none;
 }
 
 .bannerContent1 {
@@ -337,7 +364,7 @@ table.maaKhaana {
 	top:50%;
 	left:50%;
 	margin-left:-35%;
-	margin-top:-14%; 
+	margin-top:-14%;
 
 }
 
@@ -378,44 +405,44 @@ table.maaKhaana {
 	.bannerContent1 .col-lg-7, .bannerContent1 .col-lg-5 {
 		width:100%;
 	}
-	
+
 	.bannerContent1 {
 		margin-top:-50%;
 	}
-	
+
 	h1.banner1Title {
 		font:100 10vw "Roboto",Arial,Helvetica,sans-serif;
 	}
 	h1.banner1SubTitle {
 		font:normal 5vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
-		
+
 	}
-	
+
 	.bannerContent1 .row {
 		margin-left:0;
 		margin-right:0;
 	}
-	
+
 	.doubleColumn {
 		display:none;
 	}
-	
+
 	.singleColumn {
 		display:block;
 	}
-	
+
 /*
 	.bannerContent2 {
 		top:15%;
 		margin-top:0;
 	}
-	
+
 	.singleColumn .col-lg-6 {
 		position:relative;
 		float:left;
 		margin-bottom:10px;
 	}
-	
+
 	.singleColumn img {
 		position:absolute;
 		top:50%;
@@ -423,13 +450,13 @@ table.maaKhaana {
 		margin-top:-18px;
 		height:36px;
 	}
-	
+
 	.singleColumn p {
 		padding-left:60px;
 		font-size:15px;
 		line-height:23px;
 	}
-	
+
 	.singleColumn .row1 {
 		width:80%;
 		margin:auto;
@@ -438,39 +465,39 @@ table.maaKhaana {
 	table.maaKhaana {
 		margin:auto;
 	}
-	
+
 	.maaKhaana h1.banner2Title {
 		line-height:35px;
 	}
-	
+
 	table.maaKhaana img {
 		position:unset;
 		height:60px;
 		top:0;
 		margin-top:0;
 	}
-	
+
 	.bannerContent2 .rowPadding {
 		padding:0;
 	}
-	
+
 	.haath {
 		padding:0 15px 0 15px !important;
 	}
-	
+
 	.bannerContent2 .col-lg-3 {
 		width:30%;
 		float:left;
 		margin:0;
 	}
-	
+
 	.bannerContent2 .col-lg-9 {
 		width:70%;
 		float:left;
 		margin:0;
 	}
 
-*/	
+*/
 	.bannerContent3 {
 		margin-top: -30%;
 	}
@@ -483,7 +510,7 @@ table.maaKhaana {
 	.bannerContent1 .col-lg-7, .bannerContent1 .col-lg-5 {
 		width:100%;
 	}
-	
+
 	.bannerContent1 {
 		margin-top:-40%;
 	}
@@ -494,32 +521,32 @@ table.maaKhaana {
 	h1.banner1SubTitle {
 		font:normal 5vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
-	
+
 	.bannerContent1 .row {
 		margin-left:0;
 		margin-right:0;
 	}
-	
+
 	.doubleColumn {
 		display:none;
 	}
-	
+
 	.singleColumn {
 		display:block;
 	}
 
-/*	
+/*
 	.bannerContent2 {
 		top:15%;
 		margin-top:0;
 	}
-	
+
 	.singleColumn .col-lg-6 {
 		position:relative;
 		float:left;
 		margin-bottom:10px;
 	}
-	
+
 	.singleColumn img {
 		position:absolute;
 		top:50%;
@@ -527,13 +554,13 @@ table.maaKhaana {
 		margin-top:-18px;
 		height:36px;
 	}
-	
+
 	.singleColumn p {
 		padding-left:60px;
 		font-size:15px;
 		line-height:23px;
 	}
-	
+
 	.singleColumn .row1 {
 		width:80%;
 		margin:auto;
@@ -542,39 +569,39 @@ table.maaKhaana {
 	table.maaKhaana {
 		margin:auto;
 	}
-	
+
 	.maaKhaana h1.banner2Title {
 		line-height:35px;
 	}
-	
+
 	table.maaKhaana img {
 		position:unset;
 		height:60px;
 		top:0;
 		margin-top:0;
 	}
-	
+
 	.bannerContent2 .rowPadding {
 		padding:0;
 	}
-	
+
 	.haath {
 		padding:0 15px 0 15px !important;
 	}
-	
+
 	.bannerContent2 .col-lg-3 {
 		width:30%;
 		float:left;
 		margin:0;
 	}
-	
+
 	.bannerContent2 .col-lg-9 {
 		width:70%;
 		float:left;
 		margin:0;
 	}
 
-*/	
+*/
 	.bannerContent3 {
 		margin-top:-25%;
 	}
@@ -582,37 +609,37 @@ table.maaKhaana {
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
-	
-	.bannerContent1 .col-lg-7 { 
+
+	.bannerContent1 .col-lg-7 {
 		float:left;
 		width:60%;
 	}
-	
+
 	.bannerContent1 .col-lg-5 {
 		float:left;
 		width:40%;
 		margin-top:10%;
 	}
-	
+
 	h1.banner1Title {
 		text-align:left;
 		text-shadow:none;
 	}
-	
+
 	h1.banner1SubTitle {
 		text-align:left;
 		text-shadow:none;
 	}
 
-/*	
+/*
 	.bannerContent2 {
 		margin-top:-20%;
 	}
-	
+
 	.singleColumn {
 		display:none;
 	}
-	
+
 	table.homeBanner2Col2 {
 		width:100%;
 	}
@@ -624,22 +651,22 @@ table.maaKhaana {
 	table.maaKhaana {
 		margin:auto;
 	}
-	
+
 */
 	.bannerContent3 .carousel-caption {
 		bottom:0px;
 		padding-bottom:0;
 	}
-	
+
 	.bannerContent3 {
 		margin-top:-25%;
 	}
-	
+
 
 	nav .container {
 		width:100%;
 	}
-	
+
 	.navbar-brand {
 		width:210px !important;
 	}
@@ -657,9 +684,9 @@ table.maaKhaana {
 
 h2 {
 	border-top:0px;
-	border-right:3px solid #fbb11a;
-	border-bottom:3px solid #fbb11a;
-	border-left:3px solid #fbb11a;
+	/*border-right:3px solid #fbb11a;*/
+	border-bottom: 1px solid #fbb11a;
+	/*border-left:3px solid #fbb11a;*/
 	border-radius:0 0 10px 10px;
 	text-align:center;
 	padding:20px;
@@ -682,23 +709,23 @@ h2 {
 
 #howItWorks .col-lg-4 p.txt {
 	text-align:left;
-	margin:0 40px;
+	margin:0 42px;
 }
 
 @media screen and (min-width:301px) and (max-width:600px) {
 	#howItWorks .row {
 		margin-top:0px;
 	}
-	
+
 	#howItWorks .col-lg-4 {
 		padding-top:30px;
 	}
-	
+
 	#howItWorks img{
 		width:100%;
 		max-width:100px;
 	}
-	
+
 	#howItWorks .col-lg-4 p.txt {
 		margin:0 10% 0 10%;
 		text-align:left;
@@ -707,13 +734,13 @@ h2 {
 
 @media screen and (min-width:601px) and (max-width:900px) {
 	#howItWorks {
-		
+
 	}
-	
+
 	#howItWorks .row .col-lg-4{
 		margin-bottom:30px;
 	}
-	
+
 	#howItWorks .col-lg-4 p.txt {
 		margin:0 20% 0 20%;
 		text-align:left;
@@ -725,7 +752,7 @@ h2 {
 		text-align:left;
 		margin:0 8%;
 	}
-	
+
 	#howItWorks .row .col-lg-4{
 		margin-bottom:40px;
 		width:33.3333%;
@@ -825,27 +852,27 @@ h2 {
 		width:50%;
 		max-width:215px;
 	}
-	
+
 	.deliverLove {
 		padding:25px 0 35px;
 	}
-	
+
 	#deliverySlots .lunch {
 		padding:0 0 0 85px;
 	}
-	
+
 	#deliverySlots .dinner {
 		padding:0 0 0 85px;
 	}
-	
+
 	.lunch .boxStyle1 {
 		padding:30px 25px 25px 50px;
 	}
-	
+
 	.boxStyle1 {
 		float:none;
 	}
-	
+
 	.dinner .boxStyle1 img {
 		width:50%;
 		top:50%;
@@ -853,15 +880,15 @@ h2 {
 		margin-left:-25%;
 		margin-top:-25%;
 	}
-	
+
 	#deliverySlots .deliverLunchDinner {
 		padding-bottom:50px;
 	}
-	
+
 	.deliverLove .col-lg-4 {
 		margin-top:0px;
 	}
-	
+
 	.deliverLove .col-lg-7 {
 		margin:20px 0px;
 	}
@@ -873,20 +900,20 @@ h2 {
 		margin-right:5%;
 		margin-bottom:70px;
 	}
-	
+
 	#deliverySlots .dinner {
 		padding:0;
 		margin-right:5%;
 	}
-	
+
 	.deliverLove .col-lg-4 {
 		margin-top:20px;
 		text-align:center;
 	}
-	
+
 	.deliverLove .col-lg-8 {
 	}
-	
+
 	.deliverLove .col-lg-8 p {
 		margin-top:0;
 	}
@@ -898,20 +925,20 @@ h2 {
 		margin-right:5%;
 		margin-bottom:70px;
 	}
-	
+
 	#deliverySlots .dinner {
 		padding:0;
 		margin-right:5%;
 	}
-	
+
 	.deliverLove .col-lg-4 {
 		margin-top:20px;
 		text-align:center;
 	}
-	
+
 	.deliverLove .col-lg-8 {
 	}
-	
+
 	.deliverLove .col-lg-8 p {
 		margin-top:0;
 	}
@@ -928,22 +955,26 @@ h2 {
 	margin-bottom:30px;
 }
 
+.homeChefIcon {
+	text-align: center;
+}
+
 @media screen and (min-width:301px) and (max-width:600px) {
 	.homeChefIcon {
-		float:left;
+		float:right;
 		width:30%;
 	}
-	
+
 	.homeChefIcon img {
 		width:100%;
 		max-width:135px;
 	}
-	
+
 	.homeChefContent {
 		float:left;
 		width:70%;
 	}
-	
+
 	.homeChefContent .btnResize {
 		font-size:90%;
 	}
@@ -951,20 +982,20 @@ h2 {
 
 @media screen and (min-width:601px) and (max-width:900px) {
 	.homeChefIcon {
-		float:left;
+		float:right;
 		width:30%;
 	}
-	
+
 	.homeChefIcon img {
 		width:100%;
 		max-width:135px;
 	}
-	
+
 	.homeChefContent {
 		float:left;
 		width:70%;
 	}
-	
+
 	.homeChefContent .btnResize {
 		font-size:90%;
 	}
@@ -972,20 +1003,20 @@ h2 {
 
 @media screen and (min-width:901px) and (max-width:1200px) {
 	.homeChefIcon {
-		float:left;
+		float:right;
 		width:30%;
 	}
-	
+
 	.homeChefIcon img {
 		width:100%;
 		max-width:135px;
 	}
-	
+
 	.homeChefContent {
 		float:left;
 		width:70%;
 	}
-	
+
 	.homeChefContent .btnResize {
 		font-size:90%;
 	}
@@ -1005,25 +1036,25 @@ h2 {
 	color:#ec1e24;
 }
 
+#contactUs form p {
+	margin-bottom: 20px;;
+}
+
 #contactUs textarea.feedback {
 	width:100%;
 	height:80px;
-	margin-bottom:20px;
-	background-color:#f6921e;
-	border-radius:10px;
-	color:#ffffff;
-	border:none;
+	/*margin-bottom:20px;*/
+	border: 1px solid #f6921e;
+	border-radius:4px;
 	padding:10px;
 }
 
 #contactUs .inpStyle1 {
 	width:100%;
 	height:40px;
-	margin-bottom:20px;
-	background-color:#f6921e;
-	border-radius:10px;
-	color:#ffffff;
-	border:none;
+	/*margin-bottom:20px;*/
+	border: 1px solid #f6921e;
+	border-radius: 4px;
 	padding:10px;
 }
 
@@ -1043,12 +1074,12 @@ h2 {
 		margin-top:30px;
 		text-align:center;
 	}
-	
+
 	#contactUs img {
 		width:70%;
 		max-width:394px;
 	}
-	
+
 	.burrpStyle {
 		text-align:center;
 	}
@@ -1066,7 +1097,7 @@ h2 {
 		width:50%;
 		float:left;
 	}
-	
+
 	.shareUs {
 		width:50%;
 		float:left;
@@ -1087,9 +1118,9 @@ h2 {
 }
 
 #testimonials p {
-	text-shadow:none;
+	/*text-shadow:none;*/
 	text-align:right;
-	color:#F6921E;
+	/*color:#F6921E;*/
 }
 
 #testimonials .carousel-caption {
@@ -1116,9 +1147,9 @@ h2 {
 	#testimonials p {
 		font-size:15px;
 	}
-	
+
 	#testimonials .carousel {
-		
+
 	}
 }
 
@@ -1130,12 +1161,12 @@ h2 {
 	#testimonials p {
 		font-size:15px;
 	}
-	
+
 	#testimonials .carousel {
 		top:0px;
 		margin-bottom:0px;
 	}
-	
+
 	#testimonials .carousel-caption {
 		padding-bottom:0;
 		bottom:50%;
@@ -1171,6 +1202,12 @@ h2 {
 .footNavContainer .navbar-nav > li > a {
 	padding:0;
 	border-bottom:2px solid #ec1e24;
+	color: #FFFFFF;
+}
+
+.footNavContainer .navbar-nav > li > a:hover {
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
 }
 
 .footerNav {
@@ -1204,32 +1241,33 @@ footer .row p {
 		float:left;
 		margin-top:0;
 	}
-	
+
 	.snIcon, a.snIcon {
 		margin-left:0;
 		margin-right:15px;
 	}
-	
+
 	.footNavContainer .navbar-nav > li {
 		padding:7px 15px 7px;
 	}
-	
+
 	.footNavContainer .navbar-nav > li > a {
 		display:inline;
+		color: #FFFFFF;
 	}
-	
+
 	footer .collapse {
 		display:block;
 	}
-	
+
 	footer.navbar-nav {
 		background-color:none;
 	}
-	
+
 	footer .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		border:none;
 	}
-	
+
 	footer .navbar-collapse {
 		box-shadow:none;
 	}
@@ -1239,28 +1277,28 @@ footer .row p {
 	footer .collapse {
 		display:block;
 	}
-	
+
 	footer.navbar-nav {
 		background-color:none;
 	}
-	
+
 	footer .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		border:none;
 	}
-	
+
 	footer .navbar-collapse {
 		box-shadow:none;
 	}
-	
+
 	.footNavContainer .navbar-nav > li {
 		padding:7px 15px 7px;
 	}
-	
+
 	.socialIcons {
 		float:left;
 		margin-top:0;
 	}
-	
+
 	.snIcon, a.snIcon {
 		margin-left:0;
 		margin-right:15px;
@@ -1271,18 +1309,18 @@ footer .row p {
 	footer .navbar-default .navbar-nav > li > a {
 		font-size:14px;
 	}
-	
+
 	.socialIcons {
 		float:left;
 		margin-top:0;
 		margin-left:10px;
 	}
-	
+
 	.snIcon, a.snIcon {
 		margin-left:0;
 		margin-right:15px;
 	}
-	
+
 	footer .row p {
 		margin-left:25px;
 	}
@@ -1402,7 +1440,7 @@ footer .row p {
 }
 
 #steps .stepDesc {
-	
+
 	border-radius:10px;
 	color:#f04520;
 	display:inline-block;
@@ -1441,7 +1479,7 @@ footer .row p {
 	background:url(../images/icon-call.png) no-repeat left top, url(../images/icon-whatsapp.png) no-repeat right top;
 	min-height:70px;
 	margin-top:10px;
-	
+
 }
 
 #steps .call p{
@@ -1522,7 +1560,7 @@ p.highLight a {
 
 
 
-@media screen and (min-width:300px) and (max-width:480px) { 
+@media screen and (min-width:300px) and (max-width:480px) {
 	#steps .stepNo {
 		border-radius: 40px;
 		font: 700 13vw/49px "Roboto",Arial,Helvetica,sans-serif;
@@ -1531,7 +1569,7 @@ p.highLight a {
 		margin-top:-40px;
 		margin-left:-40px;
 	}
-	
+
 	#steps .stepDesc {
 		padding:0;
 		font-size:20px;
@@ -1541,22 +1579,22 @@ p.highLight a {
 		left:0;
 		top:0;
 	}
-	
+
 	#steps .call {
 		padding:0 12% 0 10%;
 		background:url(../images/icon-call.png) no-repeat left top / 30px auto, url(../images/icon-whatsapp.png) no-repeat right top / 44px auto;
 		min-height:70px;
 		margin-top:10px;
 	}
-	
+
 	.chefTblCol2, .chefTblCol3 {
 		display:none;
 	}
-	
+
 	.chefTblCol1 {
 		display:block;
 	}
-	
+
 	#becomeGociboBanner {
 	padding-top: 20px;
 }
@@ -1565,7 +1603,7 @@ p.highLight a {
 		padding-bottom: 0;
 		padding-top: 5px;
 	}
-	
+
 	.becomeBannerContent {
 		width:80%;
 		margin:0 0 0 -40%;
@@ -1579,99 +1617,99 @@ p.highLight a {
 		padding-top:5px;
 		padding-bottom:5px;
 	}
-	
+
 	.chefBannerBlock img {
 		height:50px;
 		margin-top:-25px;
 	}
-	
+
 	.chefBannerBlock p {
 		font-size:12px;
 	}
-	
+
 	p.highLight {
 		font-size:16px;
 	}
-	
+
 	h1.banner2Title {
 		font:100 5vw/7vw 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
-	
+
 	#becomeGociboBanner {
 		min-height:unset;
 	}
-	
+
 	#becomeGociboBanner .carousel {
 		padding-top:80px;
 	}
-	
+
 	#steps .call {
 		padding:0 29% 0 22%;
 	}
-	
+
 	#steps .stepSecDesc {
 		width:60%;
 		margin-top:0;
 	}
-	
+
 	.step img {
 		width:60px;
 	}
-	
+
 	.stepRowMar {
 		margin-top:0;
 	}
-	
+
 	.ic2 {
 		margin-top:10px !important;
 	}
-	
+
 	.ic3 {
 		margin-top:-10px !important;
 	}
-	
+
 	.ic4 {
 		margin-top:20px !important;
 	}
-	
+
 	.step2 img {
 		width:100%;
 	}
-	
+
 	.paymentImg {
 		text-align:center;
 	}
-	
+
 	article.deliverLove .loveTiffin {
 		text-align:center;
 	}
-	
+
 	article.deliverLove .col-lg-4, .col-lg-7 {
 	margin: 0;
 	}
-	
+
 	.month1 {
 	margin-bottom: 1em;
 	}
-	
-	
+
+
 	table.tap4 {
 		display:block;
 	}
-	
+
 	.tap4Div {
 		display:none;
 	}
-	
+
 	table.tap4 {
 		width:80%;
 		margin:auto;
 	}
-	
+
 	table.tap4 tr td {
 		padding:10px;
 	}
-	
+
 	table.tap4 tr td img {
 		width:60px;
 	}
@@ -1683,41 +1721,41 @@ p.highLight a {
 		margin:0 0 0 -45%;
 		top:5%;
 	}
-	
+
 	#becomeGociboBanner {
 	padding-top: 40px;
 	}
-	
+
 	.becomeBannerContent .rowPadding {
 		padding-top:0;
 		padding-bottom:0;
 	}
-	
+
 	.chefTblCol1, .chefTblCol3 {
 		display:none;
 	}
-	
+
 	.chefTblCol2 {
 		display:block;
 	}
-	
+
 	.chefTblCol2 img {
 		width:60px;
 	}
-	
+
 	.chefTblCol2 p {
 		margin-left:15px;
 		font-size:14px;
 	}
-	
+
 	.chefTblCol2 tr td {
 		padding:15px 0;
 	}
-	
+
 	p.highLight {
 		font-size:18px;
 	}
-	
+
 	.tblSpacer {
 		width:20px;
 	}
@@ -1728,75 +1766,75 @@ p.highLight a {
 		min-height:65px;
 		padding-right:60px;
 	}
-	
+
 	.chefBannerBlock img {
 		height:50px;
 		margin-top:-25px;
 
 	}
-	
+
 	.chefBannerBlock p{
 		font-size:12px;
 		margin:0px;
 	}
-	
+
 	h1.banner2Title {
 		font:100 4vw/50px 'Kaushan Script', cursive, 'Roboto', Arial, Helvetica, sans-serif;
 	}
-	
+
 	article.step2 img {
 		width:100%;
 		max-width:591px;
 	}
-	
+
 	#steps .call {
 	padding:0 17% 0 15%;
 	}
-	
+
 	#steps .stepDesc {
 		left:10%;
 		font-size:20px;
 		width:90%;
 	}
-	
+
 	.stepRowMar {
 		margin-top:0;
 	}
-	
+
 	.paymentImg {
 		text-align:center;
 	}
-	
+
 	article.deliverLove .loveTiffin {
 		text-align:center;
 	}
-	
+
 	#becomeGociboBanner {
 		min-height:unset;
 	}
-	
+
 	article.deliverLove .col-lg-4, .col-lg-7 {
 	margin: 0;
 	}
-	
+
 	.month1 {
 	margin-bottom: 1em;
 	}
-	
-	
+
+
 	table.tap4 {
 		display:block;
 	}
-	
+
 	.tap4Div {
 		display:none;
 	}
-	
+
 	table.tap4 {
 		width:70%;
 		margin:auto;
 	}
-	
+
 	table.tap4 tr td {
 		padding:10px;
 	}
@@ -1808,31 +1846,31 @@ p.highLight a {
 		margin:0 0 0 -40%;
 		top:5%;
 	}
-	
+
 		#becomeGociboBanner {
 	padding-top: 20px;
 }
-	
+
 	.chefTblCol2, .chefTblCol3{
 		display:none;
 	}
-	
+
 	.chefTblCol2 {
 		display:block;
 	}
-	
+
 	.chefTblCol2 tr td {
 		padding:15px 0;
 	}
-	
+
 	.chefTblCol2 img {
 	}
-	
+
 	.chefTblCol2 p {
 		margin-left:15px;
 		margin-top:0;
 	}
-	
+
 	.tblSpacer {
 		width:20px;
 	}
@@ -1841,66 +1879,66 @@ p.highLight a {
 		width:96%;
 		margin:0 2% 20px 2%;
 	}
-	
+
 	.stepRowMar {
 		margin-top:0;
 	}
-	
+
 	.paymentImg {
 		text-align:center;
 	}
-	
+
 	table.tap4 {
 		display:block;
 	}
-	
+
 	.tap4Div {
 		display:none;
 	}
-	
+
 	table.tap4 {
 		width:70%;
 		margin:auto;
 	}
-	
+
 	table.tap4 tr td {
 		padding:10px;
 	}
-	
+
 	article.deliverLove .col-lg-4, .col-lg-7 {
 	margin: 1em 0;
 	}
-	
+
 	.month1 {
 		margin-bottom: 1em;
 	}
-	
+
 }
 
 @media screen and (min-width:1200px) {
 	#steps article .container {
 		width:1170px;
 	}
-	
+
 	.becomeBannerContent .col-lg-3 img {
 		width:100%;
 	}
-	
+
 	table.tap4 {
 		display:none;
 	}
-	
+
 	.tap4Div {
 		display:block;
 	}
-	
+
 
 	.month1 {
 		margin-bottom: 2em;
 	}
-	
+
 }
-	
+
 
 
 /* careers */
@@ -2005,22 +2043,22 @@ a.mailto:hover, a.mailto:focus {
 		text-align:center;
 		margin-bottom:30px;
 	}
-	
+
 	#myCarousel3 .carousel-caption {
 		padding-left:15%;
 		padding-right:15%;
 	}
-	
+
 	.devBar {
 	margin-top: 40px;
 	}
-	
+
 	.devBar img {
 		top:52px;
 		left:50%;
 		margin-left:-52px;
 	}
-	
+
 	.devBar h3 {
 		font-size:14px;
 		margin-top:110px;
@@ -2033,20 +2071,20 @@ a.mailto:hover, a.mailto:focus {
 		text-align:center;
 		margin-bottom:30px;
 	}
-	
+
 	.carousel-inner > .item {
 		top:0;
 	}
-	
+
 	#devCarousel .carousel {
 		top:0;
 		margin-bottom:0;
 	}
-	
+
 	.devBar h3 {
 		font-size:14px;
 	}
-		
+
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -2054,16 +2092,16 @@ a.mailto:hover, a.mailto:focus {
 		text-align:center;
 		margin-bottom:30px;
 	}
-	
+
 	.carousel-inner > .item {
 		top:0;
 	}
-	
+
 	#devCarousel .carousel {
 		top:0;
 		margin-bottom:0;
 	}
-	
+
 	.devBar h3 {
 		font-size:14px;
 	}
@@ -2089,7 +2127,7 @@ a.mailto:hover, a.mailto:focus {
 	#aboutUs {
 		margin-top:0px;
 	}
-	
+
 	.panStyle {
 		text-align:center;
 	}
@@ -2230,13 +2268,13 @@ a.mailto:hover, a.mailto:focus {
 	  border-radius: 6px;
 	  width:100%;
 	}
-	
+
 	.btn-danger  {
 		font-size: 20px;
 	}
 
 
-	
+
 }
 
 @media (min-width:901px) and (max-width:1200px) {
